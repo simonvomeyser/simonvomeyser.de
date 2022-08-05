@@ -32,8 +32,11 @@ export const Layout: React.FC<LayoutProps> = ({
           <div>lang switch</div>
 
         </div>
-        <div className="bg-white shadow-md p-6">
+        <div className="bg-white shadow-md p-6 md:p-8">
           {children}
+        </div>
+        <div className="py-4 text-sm text-right space-x-3 text-neutral-600">
+          <a href='#'>Impressum</a><a href='#'>Datenschutz</a>
         </div>
 
       </div>
