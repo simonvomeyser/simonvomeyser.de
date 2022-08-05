@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import Head from 'next/head'
 import React from 'react'
+import { LanguageSwitcher } from './LanguageSwitcher'
 import { Navigation } from './Navigation'
 
 
@@ -30,7 +31,9 @@ export const Layout: React.FC<LayoutProps> = ({
           <div className='flex justify-between py-6'>
             <div className=''>Simon vom Eyser <span className='text-neutral-400'>Webentwicklung</span></div>
 
-            <div>lang switch</div>
+            <div>
+              <LanguageSwitcher />
+            </div>
 
           </div>
           <div className='bg-white shadow-md p-6 md:p-8'>

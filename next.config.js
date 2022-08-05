@@ -5,6 +5,16 @@ const nextConfig = {
   i18n: {
     locales: ['en', 'de'],
     defaultLocale: 'en',
+    domains: [
+      {
+        domain: 'simonvomeyser.com',
+        defaultLocale: 'en',
+      },
+      {
+        domain: 'simonvomeyser.de',
+        defaultLocale: 'de',
+      },
+    ],
   },
   webpack(config) {
     config.module.rules.push({
