@@ -9,11 +9,28 @@ const nextConfig = {
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
-      use: ["@svgr/webpack"]
-    });
+      use: [
+        {
+          loader: '@svgr/webpack',
+          options: {
+            dimensions: false,
+            svgoConfig: {
+              plugins: [
+                {
+                  name: 'convertColors',
+                  options: {
+                    currentColor: true,
+                  }
+                }
+              ],
+            },
+          },
+        }
+      ],
+    })
 
-    return config;
-  }
+    return config
+  },
 }
 
 module.exports = nextConfig
