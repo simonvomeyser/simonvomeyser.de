@@ -32,7 +32,11 @@ module.exports = {
       fontFamily: {
         'sans': ['"Open Sans"', 'sans-serif'],
         'special': ['Jost', 'sans-serif'],
-      }
+      },
+      fontSize: {
+        xxs: '0.625rem',
+      },
+
 
     },
   },

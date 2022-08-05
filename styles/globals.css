@@ -23,7 +23,7 @@
   --red-400: #E15258;
   --primary: var(--teal-500);
 
-  --navigationWidthDesktop: 4rem;
+  --navigationWidthDesktop: 4.25rem;
   --navigationMobileHeight: 3rem;
 }
 
@@ -66,6 +66,7 @@
   url('/fonts/jost-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('/fonts/jost-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* jost-500 - latin */
 @font-face {
   font-family: 'Jost';
@@ -73,6 +74,11 @@
   font-weight: 500;
   src: local(''),
   url('/fonts/jost-v14-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/jost-v14-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*:focus {
+  outline-color: var(--primary);
+  outline-offset: 2px;
 }
 
 @tailwind base;
