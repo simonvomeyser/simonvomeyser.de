@@ -29,6 +29,11 @@ module.exports = {
         'red-400': 'var(--red-400)',
         'primary': 'var(--primary)',
       },
+      fontFamily: {
+        'sans': ['"Open Sans"', 'sans-serif'],
+        'special': ['Jost', 'sans-serif'],
+      }
+
     },
   },
   plugins: [],

@@ -7,10 +7,11 @@ const Index: NextPage = () => {
   return (
     <Layout>
       <div className='flex pt-16'>
-        <div className='flex-1 px-6'>
-          <h1 className="text-3xl text-center text-primary mb-12">Schön, dass du hergefunden hast!</h1>
-          <p className="text-center mb-12">Hi! Ich bin Simon, und ich mache irgendwas im Internet</p>
-          <p>...etwas genauer plane und realisiere ich mit dir Webprojekte als Fullstack Entwickler und nutze dabei Javascript-Frameworks und PHP (Laravel). </p>
+        <div className='flex-1 px-9'>
+          <h1 className="text-4xl text-center text-teal-400 mb-12 font-medium  font-special">Cool, dass du hier bist!</h1>
+              <p className="text-center mb-12 text-2xl text-neutral-500 font-special">Ich bin Simon, und ich mache <br/> <i>irgendwas im Internet</i></p>
+          <p className="text-neutral-400 text-lg">Etwas genauer genommen plane und realisiere ich mit dir Webprojekte als <b>Fullstack
+              Entwickler </b> <br/><br/> Ich nutze dabei <b>Javascript</b> Frameworks und <b>Laravel</b> <br/>... und eine Menge Kaffee ☕️ </p>
         </div>
         <div className='w-[40%] pt-[60%] relative'>
           <div className='bg-gray-200 w-full h-full absolute inset-0'>
