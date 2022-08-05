@@ -1,3 +1,63 @@
+:root {
+  --100vh: 100vh;
+
+  --white: #FFFFFF;
+  --black: #0C0C0C;
+  --neutral-100: #EEEFF1;
+  --neutral-200: #DDDDDD;
+  --neutral-250: #CCCACA;
+  --neutral-300: #A7ABAF;
+  --neutral-400: #646C71;
+  --neutral-500: #4B5156;
+  --neutral-600: #3F474F;
+  --neutral-700: #292F34;
+  --teal-100: #EFF5F5;
+  --teal-200: #BEDEDB;
+  --teal-300: #9EDAD4;
+  --teal-400: #6EB9B3;
+  --teal-500: #32B0A6;
+  --teal-600: #048C81;
+  --red-100: #F3E4E5;
+  --red-200: #EA8185;
+  --red-300: #E2787D;
+  --red-400: #E15258;
+  --primary: var(--teal-500);
+
+  --navigationWidthDesktop: 4rem;
+  --navigationMobileHeight: 3rem;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+  url('/fonts/open-sans-v17-latin-300.woff2') format('woff2'),
+  url('/fonts/open-sans-v17-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+  url('/fonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+  url('/fonts/open-sans-v17-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+  url('/fonts/open-sans-v17-latin-700.woff2') format('woff2'),
+  url('/fonts/open-sans-v17-latin-700.woff') format('woff');
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
