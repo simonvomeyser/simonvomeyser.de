@@ -151,10 +151,10 @@ module.exports = {
   aboutMeImageAlt: 'Simon lacht freundlich und sitzt mit seinem MacBook auf dem Boden. Anscheinend kann er sich keinen Schreibtisch leisten.',
   aboutMeOpener: 'Ich bin Simon und mache <br> <i>irgendwas im Internet</i>',
   aboutMeFirstText: `
-    Etwas genauer genommen plane und realisiere ich mit dir Webprojekte als Fullstack Entwickler
+    Etwas genauer genommen plane und realisiere ich mit dir Webprojekte als Projektmanager und Entwickler.
     <br><br>
-    Ich nutze dabei Javascript Frameworks und Laravel<br>
-    ... und eine Menge Kaffee ☕️
+    Technisch spezialisiert habe ich mich auf Javascript Frameworks (Vue/React) und Laravel<br> <br>
+    Als Projektmanager verwende ich gerne agile Methoden (Scrum, Kanban) und eine Menge Kaffee ☕️<br>
   `,
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `

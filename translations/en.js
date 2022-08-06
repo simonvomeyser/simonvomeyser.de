@@ -119,9 +119,12 @@ module.exports = {
   myProfession: 'web development',
   niceToMeetYou: 'Awesome to meet you!',
   aboutMeImageAlt: 'Simon looks friendly and sits on the floor with his MacBook. Apparently he can\'t afford an desk.',
-  aboutMeOpener: 'I am Simon, I do development stuff on the interwebs!',
-  aboutMeFirstText:
-    '.... In other words: I plan and realize projects by using JavaScript, PHP and a lot of coffee ☕️',
+  aboutMeOpener: 'I am Simon and I do development stuff on the interwebs!',
+  aboutMeFirstText: `
+    To be a little more precise: I am your partner in planing and developing web projects. <br><br>
+    As a fullstack developer, I am specialized in Javascript Frontend Frameworks (Vue.js, React.js) and Laravel. <br> <br>
+    As a project manager, I use agile development techniques (Scrum, Kanban) ... and a lot of coffee ☕️.
+   `,
   aboutMeReadMoreHeading1: '<h2>Here is a little story about me! </h2>',
   aboutMeReadMoreText1: `
     <p>
