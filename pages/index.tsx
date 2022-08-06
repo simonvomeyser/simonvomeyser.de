@@ -19,7 +19,7 @@ const Index: NextPage = () => {
           <p className='text-center mb-12 text-2xl text-neutral-500 font-special'>
             {___('aboutMeOpener')}
           </p>
-          <p className='text-neutral-400 text-lg'>
+          <p className='text-lg text-neutral-400'>
             {___('aboutMeFirstText')}
           </p>
         </div>
@@ -28,6 +28,15 @@ const Index: NextPage = () => {
             <Image priority={true} src={AboutMeImage} width={378} height={566} objectFit='cover'
                    alt={__('aboutMeImageAlt')} />
           </div>
+        </div>
+      </div>
+      <div className='my-14 h-0.5 bg-primary mx-auto max-w-xs'></div>
+      <div className='max-w-screen-sm mx-auto'>
+        <div className='text-center font-special text-2xl text-neutral-600 mb-8'>
+          {___('aboutMeReadMoreHeading1')}
+        </div>
+        <div className='rich-text'>
+          {___('aboutMeReadMoreText1')}
         </div>
       </div>
     </Layout>

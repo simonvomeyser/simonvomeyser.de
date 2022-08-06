@@ -1,0 +1,41 @@
+.rich-text {
+  @apply text-lg text-neutral-400 leading-[1.6];
+}
+
+.rich-text p + p {
+  @apply mt-4
+}
+
+.rich-text strong {
+  background: var(--teal-100);
+  color: var(--teal-400);
+  padding: 2px 4px;
+}
+
+.rich-text a {
+  color: inherit;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s color ease-in-out;
+}
+
+.rich-text a:after {
+  transition: 0.3s width ease-in-out;
+  background: var(--teal-300);
+  display: block;
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: calc(100% + 5px);
+  transform: translateX(-50%);
+}
+
+.rich-text a:hover {
+  color: var(--teal-300);
+}
+
+.rich-text a:hover:after {
+  width: calc(100%);
+}
