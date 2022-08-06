@@ -25,7 +25,7 @@ const Index: NextPage = () => {
         </div>
         <div className='w-[40%] pt-[60%] relative'>
           <div className='bg-gray-200 w-full h-full absolute inset-0'>
-            <Image src={AboutMeImage} width={378} height={566} layout={'fill'} objectFit='cover'
+            <Image priority={true} src={AboutMeImage} width={378} height={566} objectFit='cover'
                    alt={__('aboutMeImageAlt')} />
           </div>
         </div>
