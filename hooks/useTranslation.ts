@@ -29,7 +29,7 @@ const translate = (locale: AvailableLocalesType = 'en', token: TranslationKeyTyp
   try {
     value = TRANSLATIONS[locale][token]
   } catch (e) {
-    console.error('Translation Error ', e)
+    console.warn('Translation Error ', e)
     value = token
   }
 

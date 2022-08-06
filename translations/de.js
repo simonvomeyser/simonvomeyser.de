@@ -145,7 +145,8 @@ module.exports = {
   navigationAboutMe: 'Über mich',
   navigationProjects: 'Projekte',
   navigationContact: 'Kontakt',
-  navigationBlog: 'Blog',
+  navigationBlog: 'Blog'
+  ,
   myProfession: 'Webentwicklung',
   niceToMeetYou: 'Cool, dass du da bist!',
   aboutMeImageAlt: 'Simon lacht freundlich und sitzt mit seinem MacBook auf dem Boden. Anscheinend kann er sich keinen Schreibtisch leisten.',
@@ -183,8 +184,8 @@ module.exports = {
     </p>
   `,
   projectsCopy: `
-    <p>Hier kannst du einige der mittlerweile über {numberOfAllProjects} Projekten ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
-    <p>Melde dich ruhig, falls du Fragen zu Details hast 🙂</p>
+    <p>Hier kannst du einige der mittlerweile über 50 Projekten ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
+    <p>Natürlich sind viele der Projekte noch wesentlich interessanter, als ich das hier beschreiben kann. Melde dich ruhig, falls du Fragen zu Details hast 🙂</p>
   `,
   contactFormCopy: `
   <p>
