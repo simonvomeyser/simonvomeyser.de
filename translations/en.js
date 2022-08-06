@@ -128,7 +128,7 @@ module.exports = {
   aboutMeReadMoreHeading1: '<h2>Here is a little story about me! </h2>',
   aboutMeReadMoreText1: `
     <p>
-      I've been working in web development since <strong>{yearsAsDeveloper} years</strong> and I love what I do. I started this journey by creating MySpace pages for metal bands whose lyrics where rather hard to understand. These days I help to make big(ger) web projects come to life as a <strong>freelancing Full Stack Developer</strong> and <strong>Team Leader</strong>
+      I've been working in web development since <strong>12 years</strong> and I love what I do. <br><br> I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. <br><br> These days I help to make big web projects come to life as a <strong>freelancing Full Stack Developer</strong> and <strong>Project Manager</strong>
     </p>
     <p>
       I finished my Master's degree in Media Computer Science in <a href="https://hs-duesseldorf.de/">Düsseldorf</a> early 2018. I also taught students there... or at least I tried to be the least confused person in the room.

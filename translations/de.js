@@ -159,7 +159,7 @@ module.exports = {
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Ich arbeite seit <strong>{yearsAsDeveloper} Jahren</strong> als Webentwickler und mag meinen Beruf echt gerne. Begonnen hat mein Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man echt schwer verstehen konnte. Mittlerweile realisiere ich als freiberuflicher <strong>Full Stack Entwickler</strong> und <strong>Projektmanager</strong> umfangreiche Projekte.
+      Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf. <br> <br> Begonnen hat mein Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.  <br>  Mittlerweile realisiere ich als freiberuflicher <strong>Full Stack Entwickler</strong> und <strong>Projektmanager</strong> umfangreiche Projekte wie Relaunches, Automatisierung von Prozessen und Dienstintegrationen.
     </p>
     <p>
       Anfang 2018 habe ich meinen Master in Medieninformatik an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> abgeschlossen und habe dort auch als Tutor unterrichtet... oder zumindest versucht, dabei weniger verwirrt zu sein als die Studenten.
