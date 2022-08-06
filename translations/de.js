@@ -146,8 +146,6 @@ module.exports = {
   navigationProjects: 'Projekte',
   navigationContact: 'Kontakt',
   navigationBlog: 'Blog',
-  navigationImprint: 'Impressum',
-  navigationPrivacyPolicy: '',
   myProfession: 'Webentwicklung',
   niceToMeetYou: 'Cool, dass du da bist!',
   aboutMeImageAlt: 'Simon lacht freundlich und sitzt mit seinem MacBook auf dem Boden. Anscheinend kann er sich keinen Schreibtisch leisten.',
@@ -158,8 +156,6 @@ module.exports = {
     Ich nutze dabei Javascript Frameworks und Laravel<br>
     ... und eine Menge Kaffee ☕️
   `,
-  aboutMeCta: 'Erzähl etwas mehr!',
-  aboutMeCtaAnswer: 'Okay!',
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>

@@ -7,13 +7,26 @@ const TRANSLATIONS = {
   en,
   de,
 }
+
 type AvailableLocalesType = 'en' | 'de';
 
-const translate = (locale: AvailableLocalesType = 'en', token: string) => {
+
+type TranslationKeyType = keyof typeof de;
+
+const germanKeys = Object.keys(de)
+const englishKeys = Object.keys(en)
+if (englishKeys.length !== germanKeys.length) {
+
+  const missingKeys = englishKeys.filter(key => !germanKeys.includes(key))
+    .concat(germanKeys.filter(key => !englishKeys.includes(key)))
+
+  throw new Error('One translation file has translations not contained in the other: ' + missingKeys.join(', '))
+}
+
+const translate = (locale: AvailableLocalesType = 'en', token: TranslationKeyType) => {
   let value
 
   try {
-    // @ts-ignore
     value = TRANSLATIONS[locale][token]
   } catch (e) {
     console.error('Translation Error ', e)
@@ -26,13 +39,11 @@ const translate = (locale: AvailableLocalesType = 'en', token: string) => {
 
 const useTranslation = () => {
 
-  const { locale } = useRouter()
+  const locale = useRouter().locale as AvailableLocalesType
 
-  // @ts-ignore
-  const __ = (token: string) => translate(locale, token)
+  const __ = (token: TranslationKeyType) => translate(locale, token)
 
-  // @ts-ignore
-  const ___ = (token: string) => React.createElement('span', { dangerouslySetInnerHTML: { __html: translate(locale, token) } })
+  const ___ = (token: TranslationKeyType) => React.createElement('span', { dangerouslySetInnerHTML: { __html: translate(locale, token) } })
 
   return { __, ___ }
 }
