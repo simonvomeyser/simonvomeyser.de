@@ -2,8 +2,12 @@
 key: sve
 link: https://www.google.com/search?q=recursion
 year: 2019
-month: 11 name: Simon vom Eyser excerpt:
-logo: listicon-sve.png technologies: ['react', 'gatsby']
+month: 11 
+name: Simon vom Eyser 
+excerpt:
+logo: listicon-sve.png 
+technologies: ['react', 'gatsby']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1659967503/videos-simonvomeyser.de/sve.mp4
 clients: []
 ---
 
