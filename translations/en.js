@@ -155,6 +155,7 @@ module.exports = {
     <p>You will find a few of the 50-100 projects I was involved in here. I love working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
     <p>Just hit me up if you have any questions or you want to know more details. 🙂</p>
   `,
+  projectsShowOldProjects: 'Show old(er) projects',
   contactFormCopy: `
     <p>
       Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.

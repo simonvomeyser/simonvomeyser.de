@@ -187,6 +187,7 @@ module.exports = {
     <p>Hier kannst du einige der 50-100 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
     <p>Natürlich sind viele der Projekte noch wesentlich interessanter, als ich das hier beschreiben kann. Melde dich ruhig, falls du Fragen zu Details hast 🙂</p>
   `,
+  projectsShowOldProjects: 'Ältere Projekte zeigen',
   contactFormCopy: `
   <p>
     Das obligatorische Kontaktformular auf einer Webseite darf natürlich nicht fehlen. Aber seien wir ehrlich: Es macht auch
