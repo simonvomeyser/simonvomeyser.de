@@ -1,7 +1,11 @@
 ---
 key: swd link: https://simple-web.dev
-year: 2020 month: 6 name: Simple Web Dev excerpt:
-logo: listicon-swd.png technologies: ['laravel', 'vuejs']
+year: 2020 
+month: 6 
+name: Simple Web Dev 
+excerpt: 
+logo: listicon-swd.png 
+technologies: ['laravel', 'vuejs']
 clients: []
 ---
 
