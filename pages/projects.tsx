@@ -17,7 +17,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
       <PageHeading>
         <h1>{__('navigationProjects')}</h1>
       </PageHeading>
-      <div className='rich-text max-w-screen-sm mx-auto'>
+      <div className='rich-text max-w-screen-sm mx-auto mb-8 md:mb-12'>
         {___('projectsCopy')}
       </div>
       <div className='grid sm:grid-cols-2 gap-4'>
