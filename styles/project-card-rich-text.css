@@ -1,0 +1,11 @@
+.project-card-rich-text {
+  @apply text-sm text-neutral-300 whitespace-pre-wrap;
+}
+
+.project-card-rich-text p + p {
+  @apply mt-[1em]
+}
+
+.project-card-rich-text a {
+  @apply underline
+}

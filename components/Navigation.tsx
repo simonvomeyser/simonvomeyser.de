@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import useTranslation from '../hooks/useTranslation'
+import { useTranslation } from '../hooks/useTranslation'
 import LogoNavigation from '../svg/logo-navigation.svg'
 import PaperPlaneSvg from '../svg/paper-plane.svg'
 import ProjectsSvg from '../svg/projects.svg'

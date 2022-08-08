@@ -1,6 +1,7 @@
 @import "variabiles.css";
 @import "fonts.css";
 @import "rich-text.css";
+@import "project-card-rich-text.css";
 
 *:focus {
   outline-color: var(--primary);

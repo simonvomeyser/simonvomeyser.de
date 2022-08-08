@@ -152,7 +152,7 @@ module.exports = {
       </p>
   `,
   projectsCopy: `
-    <p>You will find a few of the about {numberOfAllProjects} projects I was involved in here. I love working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
+    <p>You will find a few of the 50-100 projects I was involved in here. I love working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
     <p>Just hit me up if you have any questions or you want to know more details. 🙂</p>
   `,
   contactFormCopy: `

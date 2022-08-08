@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { useRouter } from 'next/router'
 import React from 'react'
-import useTranslation from '../hooks/useTranslation'
+import { useTranslation } from '../hooks/useTranslation'
 import GermanySvg from '../svg/germany.svg'
 import UnitedStates from '../svg/united-states.svg'
 

@@ -37,7 +37,7 @@ const translate = (locale: AvailableLocalesType = 'en', token: TranslationKeyTyp
 }
 
 
-const useTranslation = () => {
+export const useTranslation = () => {
 
   const locale = useRouter().locale as AvailableLocalesType
 
@@ -47,5 +47,3 @@ const useTranslation = () => {
 
   return { __, ___ }
 }
-
-export default useTranslation

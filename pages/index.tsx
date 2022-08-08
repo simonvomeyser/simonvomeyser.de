@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Image from 'next/image'
 import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
-import useTranslation from '../hooks/useTranslation'
+import { useTranslation } from '../hooks/useTranslation'
 import AboutMeImage from '../img/about-me-1.jpg'
 import AboutMeBackground from '../svg/about-me-background.svg'
 

@@ -184,7 +184,7 @@ module.exports = {
     </p>
   `,
   projectsCopy: `
-    <p>Hier kannst du einige der mittlerweile über 50 Projekten ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
+    <p>Hier kannst du einige der 50-100 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
     <p>Natürlich sind viele der Projekte noch wesentlich interessanter, als ich das hier beschreiben kann. Melde dich ruhig, falls du Fragen zu Details hast 🙂</p>
   `,
   contactFormCopy: `

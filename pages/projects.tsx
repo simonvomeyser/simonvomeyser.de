@@ -1,17 +1,16 @@
-import { promises as fs } from 'fs'
-import matter from 'gray-matter'
 import type { GetStaticPropsContext, NextPage } from 'next'
-import path from 'path'
 import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
-import useTranslation from '../hooks/useTranslation'
-
-export type ProjectType = {
-  name: string
-}
+import { ProjectCard } from '../components/ProjectCard'
+import { ProjectType } from '../d'
+import { useProjects } from '../hooks/useProjects'
+import { useTranslation } from '../hooks/useTranslation'
+import { getProjectsFromFilesystem } from './misc/getProjectsFromFilesystem'
 
 const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
   const { __, ___ } = useTranslation()
+
+  const { currentProjects, oldProjects } = useProjects(projects)
 
   return (
     <Layout>
@@ -22,12 +21,8 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
         {___('projectsCopy')}
       </div>
       <div className='grid sm:grid-cols-2 gap-4'>
-        {projects.map((project, index) => (
-          <div key={index}>
-            {project.data.name} <br />
-            {project.content}
-
-          </div>
+        {currentProjects.map((project, index) => (
+          <ProjectCard key={index} project={project} />
         ))}
       </div>
     </Layout>
@@ -36,29 +31,8 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
 
 export async function getStaticProps(context: GetStaticPropsContext) {
 
-  const postsDirectory = path.join(process.cwd(), '/projects/' + context.locale)
-  const filenames = await fs.readdir(postsDirectory)
+  return await getProjectsFromFilesystem(context)
 
-  const projects = filenames.map(async (filename) => {
-    const filePath = path.join(postsDirectory, filename)
-    const fileContents = await fs.readFile(filePath, 'utf8')
-
-    // Generally you would parse/transform the contents
-    // For example you can transform markdown to HTML here
-    const matterResult = matter(fileContents)
-
-    return {
-      data: matterResult.data,
-      content: matterResult.content,
-    }
-  })
-
-
-  return {
-    props: {
-      projects: await Promise.all(projects),
-    },
-  }
 }
 
 export default Index
