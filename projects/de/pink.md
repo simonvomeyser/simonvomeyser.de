@@ -10,9 +10,6 @@ technologies: ['vuejs', 'wordpress', 'lumen']
 clients: ['pink']
 ---
 
-Großer Relaunch der Webseite der verrückt genialen Agentur PINK. Die Seite enthält eine Menge coole Details wie eine
-etwas andere Teamseite, einen Social Media Stream, filterbare Projekte und ein verstecktes Snake Spiel (tippe "snake"
-irgendwo auf der Seite).
+Großer Relaunch der Webseite der verrückt genialen Agentur PINK. Die Seite enthält eine Menge coole Details wie eine etwas andere Teamseite, einen Social Media Stream, filterbare Projekte und ein verstecktes Snake Spiel (tippe "snake" irgendwo auf der Seite).
 
-Umgesetzt wurde das Projekt größtenteils mit Vue.js und Wordpress nach dem Design von PINK. An einigen Stellen kam eine
-Laravel API zum Einsatz.
+Umgesetzt wurde das Projekt größtenteils mit Vue.js und Wordpress nach dem Design von PINK. An einigen Stellen kam eine Laravel API zum Einsatz.

@@ -10,11 +10,8 @@ technologies: ['jquery', 'wordpress']
 clients: []
 ---
 
-Mein erstes etwas umfangreicheres Wordpress Projekt, die Hompage der Metal Band Cyrcus. Man versteht hin und wieder die
-Texte, versprochen!
+Mein erstes etwas umfangreicheres Wordpress Projekt, die Hompage der Metal Band Cyrcus. Man versteht hin und wieder die Texte, versprochen!
 
-Die Seite enthält einen kompletten Webshop sowie verwaltbare News und Tourdates. Auch eine Facebook Schnittstelle zum
-Darstellen der Bilder wurden integriert.
+Die Seite enthält einen kompletten Webshop sowie verwaltbare News und Tourdates. Auch eine Facebook Schnittstelle zum Darstellen der Bilder wurden integriert.
 
-Hier habe ich Frontend + Backend umgesetzt, das Design stammt von meinem talentierten
-Kollegen <a href="https://simon-koehler.com/" target="_blank" rel="noopener noreferrer">Simon Köhler</a>
+Hier habe ich Frontend + Backend umgesetzt, das Design stammt von meinem talentierten Kollegen <a href="https://simon-koehler.com/" target="_blank" rel="noopener noreferrer">Simon Köhler</a>
