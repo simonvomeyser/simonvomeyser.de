@@ -203,18 +203,23 @@ module.exports = {
   </p>
   `,
   contactFormPrivacy: 'Ich bin cool mit und akzeptiere hiermit die <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Hinweise zum Datenschutz.</a>. Ich vetraue Simon sozusagen, dass er meine Daten weder speichert noch weitergibt.',
-  errorsRequired: 'Das ist ein Pflichtfeld',
+  errorsRequired: [
+    'Das ist ein Pflichtfeld, macht doch Sinn!',
+    'Hey, das ist ein Pflichtfeld...',
+    'Macht doch Sinn, dass das hier ein Pflichtfeld ist.',
+    'Ohne dieses Feld kann ich nicht anfangen...',
+  ],
   errorsInvalidEmail: 'Hm, da kann ich keine E-Mail hinschicken 🤔',
   errorsMessageTooShort: 'Etwas mehr Text brauchst du noch, damit ich dir antworten kann',
-  emailPlaceholder: 'deine E-Mail',
-  textPlaceholder: 'frag mich etwas',
+  emailPlaceholder: 'Deine E-Mail',
+  textPlaceholder: 'Frag mich etwas...',
   contactMessageErrorHeading: 'Ups, da ist was schief gelaufen!',
   emailRequired:
     'E-Mail muss eine echte E-Mail Adresse sein. Ich wette du bist überrascht!',
   textRequired: 'Der Text muss etwas länger sein, das schaffst du!',
   emailAndTextRequired:
     'Ohne E-Mail und genug Text kann das Formular echt nichts für dich tun...',
-  send: 'Loß geht\'s!',
+  send: 'Auf geht\'s!',
   contactMessageSuccessHeading: 'Yeah, das hat funktioniert!',
   contactMessageSuccessText:
     'Ich melde mich bei dir. Und falls du das Kontaktformular nur getestet hast hoffe ich du hattest eine Menge Spaß  ✨',

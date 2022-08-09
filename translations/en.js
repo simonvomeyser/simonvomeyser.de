@@ -168,7 +168,13 @@ module.exports = {
     </p>
   `,
   contactFormPrivacy: 'I am down with and thereby accept the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>, I trust you to not save my data.',
-  errorsRequired: 'Obviously you need to fill this in',
+  errorsRequired: [
+    "Obviously you need to fill this in right? 🤔",
+    "Wouldn't you like to fill this in?",
+    "We need this to continue!",
+    "Wouldn't this make sense to be required?",
+    "Oh no, you forgot to fill this in!",
+  ],
   errorsInvalidEmail: 'Hm, that doesn\'t look like a valid email address 🤔',
   errorsMessageTooShort: 'A little bit too short, that\'s not a good conversation starter',
   emailPlaceholder: 'your email',

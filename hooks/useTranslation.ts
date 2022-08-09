@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import de from '../translations/de'
 import en from '../translations/en'
+import { shuffleArray } from '../util/shuffleArray'
 
 const TRANSLATIONS = {
   en,
@@ -28,6 +29,11 @@ const translate = (locale: AvailableLocalesType = 'en', token: TranslationKeyTyp
 
   try {
     value = TRANSLATIONS[locale][token]
+
+    if (Array.isArray(value)) {
+      value = shuffleArray(value)[0]
+    }
+
   } catch (e) {
     console.warn('Translation Error ', e)
     value = token
