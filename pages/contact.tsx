@@ -13,8 +13,9 @@ const Index: NextPage = () => {
   const { __, ___ } = useTranslation()
   const buttonRef = React.useRef<HTMLButtonElement>(null)
 
-  function validateForm(values: FormikValues ) {
+  function validateForm(values: FormikValues) {
     const errors: { email?: string, message?: string, privacy?: string } = {}
+
     if (!values.email) {
       errors.email = __('errorsRequired')
     } else if (
@@ -55,7 +56,6 @@ const Index: NextPage = () => {
         <Formik
           initialValues={{ email: '', message: '', privacy: false }}
           validate={validateForm}
-          validateOnChange={false}
           onSubmit={(values, { setSubmitting }) => {
             setTimeout(() => {
               alert(JSON.stringify(values, null, 2))
@@ -63,53 +63,60 @@ const Index: NextPage = () => {
             }, 400)
           }}
         >
-          {({ isSubmitting, values, errors}) => (
-            <Form>
-              <div className='mb-6'>
-                <div className='relative'>
-
-                  <MovingLabel htmlFor='email' text='E-Mail' moveFlag={!!values.email} />
-
-                  <Field type='email' name='email' id='email'
-                         className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block ' />
-                </div>
-                <ErrorMessage name='email' component='div' className='text-sm text-red-400 fade-in-on-render' />
+          {({ isSubmitting, values, errors , touched}) => (
+            <Form className="relative">
+              <div></div>
+              <div>
 
               </div>
-              <div className='mb-4'>
-                <div className='relative'>
-                  <MovingLabel htmlFor='message' text='Message' moveFlag={!!values.message} />
-                  <Field name='message' as='textarea' id='message'
-                         className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block h-56' />
+              <div className={clsx('transition duration-500', {
+                'opacity-0': isSubmitting
+              })}>
+                <div className='mb-6'>
+                  <div className='relative'>
+
+                    <MovingLabel htmlFor='email' text={__('emailPlaceholder')} moveFlag={!!values.email} />
+
+                    <Field type='email' name='email' id='email'
+                           className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block ' />
+                  </div>
+                  <ErrorMessage name='email' component='div' className='text-sm text-red-400 fade-in-on-render' />
+
                 </div>
-                <ErrorMessage name='message' component='div' className='text-sm text-red-400 fade-in-on-render' />
-              </div>
-              <div className='mb-8'>
-                <label className='flex w-full custom-checkbox-label cursor-pointer'>
-                  <Field type='checkbox' name='privacy' className='sr-only' />
-                  <span
-                    className={clsx('w-6 h-6 border rounded-sm inline-block mr-4 flex-shrink-0 relative', {
-                      'border-neutral-200 bg-neutral-50': !errors.privacy,
-                      'border-red-500 bg-red-100': errors.privacy,
-                    })}>
+                <div className='mb-4'>
+                  <div className='relative'>
+                    <MovingLabel htmlFor='message' text={__('textPlaceholder')} moveFlag={!!values.message} />
+                    <Field name='message' as='textarea' id='message'
+                           className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block h-56' />
+                  </div>
+                  <ErrorMessage name='message' component='div' className='text-sm text-red-400 fade-in-on-render' />
+                </div>
+                <div className='mb-8'>
+                  <label className='flex w-full custom-checkbox-label cursor-pointer'>
+                    <Field type='checkbox' name='privacy' className='sr-only' />
                     <span
-                      className=' absolute bg-teal-400 text-white w-full h-full flex justify-center items-center transition-all duration-300'>
-                      <CheckmarkSvg className='w-5 h-5' />
+                      className={clsx('w-6 h-6 border rounded-sm inline-block mr-4 flex-shrink-0 relative border-neutral-200 bg-neutral-50', {
+                        '!border-red-500 !bg-red-100': errors.privacy && touched.privacy,
+                      })}>
+                      <span
+                        className=' absolute bg-teal-400 text-white w-full h-full flex justify-center items-center transition-all duration-300'>
+                        <CheckmarkSvg className='w-5 h-5' />
+                      </span>
                     </span>
-                  </span>
-                  <span className='inline-block text-sm small-basic-rich-text !text-neutral-400'>
-                    {___('contactFormPrivacy')}
-                  </span>
+                    <span className='inline-block text-sm small-basic-rich-text !text-neutral-400'>
+                      {___('contactFormPrivacy')}
+                    </span>
 
-                </label>
-              </div>
-              <div className='flex justify-center '>
-                <button disabled={isSubmitting}
-                        ref={buttonRef}
-                        onClick={() => Object.keys(errors).length ? shortShake() : null}
-                        className='py-2.5 p-4 min-w-[200px] bg-primary text-white text-lg'>
-                  {__('send')}
-                </button>
+                  </label>
+                </div>
+                <div className='flex justify-center '>
+                  <button disabled={isSubmitting}
+                          ref={buttonRef}
+                          onClick={() => Object.keys(errors).length ? shortShake() : null}
+                          className='py-2.5 p-4 min-w-[200px] bg-primary text-white text-lg'>
+                    {__('send')}
+                  </button>
+                </div>
               </div>
             </Form>
           )}
