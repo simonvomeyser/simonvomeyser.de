@@ -1,11 +1,36 @@
 @import "variabiles.css";
 @import "fonts.css";
 @import "rich-text.css";
-@import "project-card-rich-text.css";
+@import "small-basic-rich-text.css";
+@import "custom-checkbox-label.css";
 
 *:focus {
   outline-color: var(--primary);
   outline-offset: 2px;
+}
+
+input:focus, textarea:focus {
+  outline-offset: 0;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  animation-name: fade-in;
+  animation-duration: .4s;
+}
+
+.fade-in-on-render {
+  animation-name: fade-in;
+  animation-duration: .4s;
 }
 
 @tailwind base;

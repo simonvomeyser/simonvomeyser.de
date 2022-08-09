@@ -109,7 +109,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
         <div className='px-4 pt-4 pb-8'>
           <div className='text-sm text-neutral-400'>{project.year}</div>
           <div className='text-2xl mb-4'>{project.name}</div>
-          <div className='project-card-rich-text' dangerouslySetInnerHTML={{ __html: project.html }} />
+          <div className='small-basic-rich-text' dangerouslySetInnerHTML={{ __html: project.html }} />
         </div>
       </div>
     </div>

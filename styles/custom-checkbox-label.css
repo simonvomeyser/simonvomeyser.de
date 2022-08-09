@@ -1,0 +1,13 @@
+.custom-checkbox-label input[type="checkbox"] + span span {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.custom-checkbox-label input[type="checkbox"]:checked + span {
+  border-color: var(--primary);
+}
+
+.custom-checkbox-label input[type="checkbox"]:checked + span span {
+  opacity: 1;
+  transform: scale(1);
+}

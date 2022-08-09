@@ -167,6 +167,10 @@ module.exports = {
       I offer <strong>planning</strong> and <strong>development</strong> for exciting projects and I am always interested to work with badass teams so we can learn from each other. Just hit me up 🙂
     </p>
   `,
+  contactFormPrivacy: 'I am down with and thereby accept the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>, I trust you to not save my data.',
+  errorsRequired: 'Obviously you need to fill this in',
+  errorsInvalidEmail: 'Hm, that doesn\'t look like a valid email address 🤔',
+  errorsMessageTooShort: 'A little bit too short, that\'s not a good conversation starter',
   emailPlaceholder: 'your email',
   textPlaceholder: 'ask me something',
   contactMessageErrorHeading: 'Oh snap, something went wrong!',
