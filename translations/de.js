@@ -184,10 +184,14 @@ module.exports = {
     </p>
   `,
   projectsCopy: `
-    <p>Hier kannst du einige der 50-100 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
-    <p>Natürlich sind viele der Projekte noch wesentlich interessanter, als ich das hier beschreiben kann. Melde dich ruhig, falls du Fragen zu Details hast 🙂</p>
+    <p>Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
+    <p>Natürlich sind die Projekte meist noch wesentlich interessanter, als ich es hier beschreiben kann. Besonders die Anforderungsanalyse und der Prouess sind dem fertigen Produkt nicht mehr sichtbar, dabei halte ich beides für wesentlich wichtiger, als jede Technologie.</p>
   `,
   projectsShowOldProjects: 'Ältere Projekte zeigen',
+  projectsNoResults: 'Keine Projekte gefunden',
+  projectsNoResultsClear: 'Suche zurücksetzen',
+  projectsSearchPlaceholder: 'Suche nach Vue.js, Laravel, React, ...',
+
   contactFormCopy: `
   <p>
     Das obligatorische Kontaktformular auf einer Webseite darf natürlich nicht fehlen. Aber seien wir ehrlich: Es macht auch

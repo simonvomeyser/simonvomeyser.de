@@ -19,7 +19,7 @@ module.exports = {
       </p>
       <p>
           Phone: +49157 33915334<br>
-          Email: <a href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a></p>
+          Email: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a></p>
       <h2>Liability for links</h2>
       <p>
         This website contains links to external third-party websites, over the content of which I have no control. 
@@ -34,8 +34,8 @@ module.exports = {
       The operator of this site makes every effort to respect the copyrights of outside parties and to employ his own material and material in the public domain. All content and material on this site created by the site operator is governed by German copyright law. Downloads and copies of this site may be made for private, non-commercial use only. Reproduction, processing, distribution and any form of exploitation beyond that permitted by copyright law requires the written consent of the author or creator concerned. Contributions by third parties are identified as such. Should anyone become aware of a possible copyright infringement, I kindly request that you inform me of such. Upon becoming aware of such a violation I shall remove the respective content immediately.
       </p>
       <p>
-        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a>
-          from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        Icons made by <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>Freepik</a> and <a href='https://www.flaticon.com/authors/gregor-cresnar' title='Gregor Cresnar'>Gregor Cresnar</a>
+          from <a href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a>
       </p>
   `,
   privacyPolicyContent: `
@@ -81,7 +81,7 @@ module.exports = {
     <p>
       Simon vom Eyser <br/>
       Phone: +49 1774100666 <br>
-      Email: <a href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a>
+      Email: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a>
     </p>
     <p>The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and
         means of processing personal data (names, email addresses, etc.).</p>
@@ -131,16 +131,16 @@ module.exports = {
       I've been working in web development since <strong>12 years</strong> and I love what I do. <br><br> I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. <br><br> These days I help to make big web projects come to life as a <strong>freelancing Full Stack Developer</strong> and <strong>Project Manager</strong>
     </p>
     <p>
-      I finished my Master's degree in Media Computer Science in <a href="https://hs-duesseldorf.de/">Düsseldorf</a> early 2018. I also taught students there... or at least I tried to be the least confused person in the room.
+      I finished my Master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018. I also taught students there... or at least I tried to be the least confused person in the room.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>What I am doing right now</h2>',
   aboutMeReadMoreText2: `
     <p>
-      When I am <strong>part-time freelancing</strong>, I work on various projects that <i>spark my intrest and joy</i>. I do this alone or as a teamplayer with awesome agencies like <a href="https://bitmade.de/" target="_blank" rel="noopener noreferrer">Bitmade</a>, <a href="https://g31design.com/" target="_blank" rel="noopener noreferrer">g31</a>, <a href="https://agentur.pink/" target="_blank" rel="noopener noreferrer">Pink Werbung</a> and many more.
+      When I am <strong>part-time freelancing</strong>, I work on various projects that <i>spark my intrest and joy</i>. I do this alone or as a teamplayer with awesome agencies like <a href='https://bitmade.de/' target='_blank' rel='noopener noreferrer'>Bitmade</a>, <a href='https://g31design.com/' target='_blank' rel='noopener noreferrer'>g31</a>, <a href='https://agentur.pink/' target='_blank' rel='noopener noreferrer'>Pink Werbung</a> and many more.
     </p>
     <p>
-      I also work <strong> part time as a senior project manager</strong> at the company <a href="https://www.dekra-media.de" target="_blank" rel="noopener noreferrer">DEKRA Media GmbH</a>. Over there I am leading a small team of awesome developers specialized in e-learning and web solutions. We also curse a lot about Internet Explorer in a really agile way.
+      I also work <strong> part time as a senior project manager</strong> at the company <a href='https://www.dekra-media.de' target='_blank' rel='noopener noreferrer'>DEKRA Media GmbH</a>. Over there I am leading a small team of awesome developers specialized in e-learning and web solutions. We also curse a lot about Internet Explorer in a really agile way.
     </p>
   `,
   aboutMeReadMoreText3: `
@@ -156,9 +156,12 @@ module.exports = {
     <p>Just hit me up if you have any questions or you want to know more details. 🙂</p>
   `,
   projectsShowOldProjects: 'Show old(er) projects',
+  projectsNoResults: 'No projects found results found',
+  projectsNoResultsClear: 'Clear search',
+  projectsSearchPlaceholder: 'Search for Vue.js, Laravel, React, ...',
   contactFormCopy: `
     <p>
-      Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.
+      Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>.
     </p>
     <p>
       I offer <strong>planning</strong> and <strong>development</strong> for exciting projects and I am always interested to work with badass teams so we can learn from each other. Just hit me up 🙂

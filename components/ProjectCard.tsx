@@ -10,9 +10,10 @@ import { FadeInImage } from './FadeInImage'
 export type ProjectCardProps = {
   project: ProjectType
   className?: string;
+  style?: React.CSSProperties;
 };
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project }) => {
+export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , style}) => {
   let video: React.RefObject<HTMLVideoElement> = React.createRef()
   let videoFullscreen: React.RefObject<HTMLVideoElement> = React.createRef()
 
@@ -31,7 +32,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project }) 
 
 
   return (
-    <div className={clsx(' shadow', className)}>
+    <div className={clsx(' shadow project-card-animation', className)} style={style}>
       <div className='bg-neutral-100 pt-[56.6666%] relative'>
         <div className='absolute inset-0 w-full h-full'>
           <FadeInImage

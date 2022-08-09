@@ -16,5 +16,5 @@ export const useProjects = (projects: ProjectType[]) => {
   const currentProjects = sortedProjects.filter((p) => p.year >= yearForCurrentProjects)
   const oldProjects = sortedProjects.filter((p) => p.year < yearForCurrentProjects)
 
-  return { currentProjects, oldProjects }
+  return { currentProjects, oldProjects, allProjects: sortedProjects }
 }

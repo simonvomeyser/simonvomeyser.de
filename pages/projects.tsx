@@ -6,30 +6,63 @@ import { ProjectCard } from '../components/ProjectCard'
 import { ProjectType } from '../d'
 import { useProjects } from '../hooks/useProjects'
 import { useTranslation } from '../hooks/useTranslation'
+import SearchSvg from '../svg/search.svg'
 import { getProjectsFromFilesystem } from './misc/getProjectsFromFilesystem'
 
 const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
   const { __, ___ } = useTranslation()
 
-  const { currentProjects, oldProjects } = useProjects(projects)
+  const { currentProjects, oldProjects, allProjects } = useProjects(projects)
   const [showOldProjects, setShowOldProjects] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
 
-  const projectsToShow = showOldProjects ? currentProjects.concat(oldProjects) : currentProjects
+  let projectsToShow = showOldProjects ? allProjects : currentProjects
+
+  if (searchQuery.length > 0) {
+
+    projectsToShow = allProjects.filter(project => {
+      return (
+        project?.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          project?.html?.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+
+    })
+  }
 
   return (
     <Layout>
       <PageHeading>
         <h1>{__('navigationProjects')}</h1>
       </PageHeading>
-      <div className='rich-text max-w-screen-sm mx-auto mb-8 md:mb-12'>
+      <div className='rich-text max-w-screen-sm mx-auto mb-8'>
         {___('projectsCopy')}
       </div>
+
+      <div className='max-w-screen-sm mx-auto mb-10 md:px-8 relative'>
+
+
+        <div className="relative">
+
+        <SearchSvg className='absolute top-1/2  transform  -translate-y-1/2 left-3 w-5 h-5 text-neutral-200' />
+
+        <input value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
+               className='w-full border-2 border-neutral-200 placeholder:text-neutral-200 pl-11 rounded-full py-2 px-4 placeholder-gray-500 focus:outline-none focus:border-primary focus:placeholder-gray-400 transition'
+               placeholder={__('projectsSearchPlaceholder')}
+        />
+        </div>
+      </div>
       <div className='grid sm:grid-cols-2 gap-4'>
-        {projectsToShow.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+        {projectsToShow.map((project) => (
+          <ProjectCard key={project.key} project={project} />
         ))}
       </div>
-      {!showOldProjects && (
+      {searchQuery && projectsToShow.length === 0 && (
+        <div className='text-center text-neutral-300 py-8'>
+          {___('projectsNoResults')} <br />
+          <button className='underline' onClick={() => setSearchQuery('')}>{__('projectsNoResultsClear')}</button>
+        </div>
+      )}
+      {!showOldProjects && !searchQuery && (
         <div className='mt-12 flex justify-center '>
           <button type='button' className='px-4 py-3 border-primary border-2 text-primary'
                   onClick={() => setShowOldProjects(true)}>
