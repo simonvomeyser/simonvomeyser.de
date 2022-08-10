@@ -12,7 +12,7 @@ export const ContactFormAlertBox: React.FC<ContactFormAlertBoxProps> = ({submitS
   const { __, ___ } = useTranslation()
 
   return (
-    <div className='my-16 fade-in-on-render'>
+    <div className='my-16 fade-and-slide-up-on-render'>
       <AlertBox
         heading={submitStatus === 'success' ? __('contactMessageSuccessHeading') : __('contactMessageErrorHeading')}
         type={submitStatus}>

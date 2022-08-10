@@ -96,7 +96,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
                   <Field type='email' name='email' id='email'
                          className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block ' />
                 </div>
-                <ErrorMessage name='email' component='div' className='text-sm text-red-400 fade-in-on-render' />
+                <ErrorMessage name='email' component='div' className='text-sm text-red-400 fade-and-slide-up-on-render' />
 
               </div>
               <div className='mb-4'>
@@ -105,7 +105,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
                   <Field name='text' as='textarea' id='text'
                          className='w-full border border-neutral-250 rounded-sm px-4 py-4 bg-neutral-50 text-lg block h-56' />
                 </div>
-                <ErrorMessage name='text' component='div' className='text-sm text-red-400 fade-in-on-render' />
+                <ErrorMessage name='text' component='div' className='text-sm text-red-400 fade-and-slide-up-on-render' />
               </div>
               <div className='mb-8'>
                 <label className='flex w-full custom-checkbox-label cursor-pointer' tabIndex={1}>

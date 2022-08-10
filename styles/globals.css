@@ -23,14 +23,25 @@ input:focus, textarea:focus {
   }
 }
 
+@keyframes fade-and-slide-up-on-render {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   animation-name: fade-in;
   animation-duration: .4s;
 }
 
-.fade-in-on-render {
-  animation-name: fade-in;
-  animation-duration: .4s;
+.fade-and-slide-up-on-render {
+  animation-name: fade-and-slide-up-on-render;
+  animation-duration: .5s;
 }
 
 @tailwind base;
