@@ -31,7 +31,7 @@ const translate = (locale: AvailableLocalesType = 'en', token: TranslationKeyTyp
     value = TRANSLATIONS[locale][token]
 
     if (Array.isArray(value)) {
-      value = shuffleArray(value)[0]
+      value = shuffleArray([...value])[0]
     }
 
   } catch (e) {

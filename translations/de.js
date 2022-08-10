@@ -168,8 +168,7 @@ module.exports = {
   `,
   aboutMeReadMoreHeading2: '<h2>Was ich momentan so mache</h2>',
   aboutMeReadMoreText2: `
-    <p>
-      Momentan bin ich <strong>in Teilzeit freiberuflich</strong> tätig und schlüpfe dabei in verschiedene Rollen. Bei größeren Projekten arbeite ich häufig und gern mit tollen Agenturen wie <a href='https://bitmade.de/' target='_blank' rel='noopener noreferrer'>Bitmade</a>, <a href='https://g31design.com/' target='_blank' rel='noopener noreferrer'>g31</a>, <a href='https://agentur.pink/' target='_blank' rel='noopener noreferrer'>Pink Werbung</a> uvm. zusammen. 
+    <p> Momentan bin ich <strong>in Teilzeit freiberuflich</strong> tätig und schlüpfe dabei in verschiedene Rollen. Bei größeren Projekten arbeite ich häufig und gern mit tollen Agenturen wie <a href='https://bitmade.de/' target='_blank' rel='noopener noreferrer'>Bitmade</a>, <a href='https://g31design.com/' target='_blank' rel='noopener noreferrer'>g31</a>, <a href='https://agentur.pink/' target='_blank' rel='noopener noreferrer'>Pink Werbung</a> uvm. zusammen. 
     </p>
     <p>
       Ebenfalls <strong>in Teilzeit, als Senior Project Manager</strong>, arbeite ich bei der <a href='https://www.dekra-media.de' target='_blank' rel='noopener noreferrer'>DEKRA Media GmbH</a>.  Dort leite ich ein kleines Team aus großartigen Entwicklern und wir tüfteln gemeinsam an E-Learning Systemen in mehrjähirgen Entwicklungen. Auch fluchen wir gerne agil über den Internet Explorer.
@@ -214,6 +213,7 @@ module.exports = {
   emailPlaceholder: 'Deine E-Mail',
   textPlaceholder: 'Frag mich etwas...',
   contactMessageErrorHeading: 'Ups, da ist was schief gelaufen!',
+  contactMessageErrorText: 'Ganz schön peinlich. Du kannst mich aber immer unter <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a> erreichen.',
   emailRequired:
     'E-Mail muss eine echte E-Mail Adresse sein. Ich wette du bist überrascht!',
   textRequired: 'Der Text muss etwas länger sein, das schaffst du!',

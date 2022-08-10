@@ -180,6 +180,7 @@ module.exports = {
   emailPlaceholder: 'your email',
   textPlaceholder: 'ask me something',
   contactMessageErrorHeading: 'Oh snap, something went wrong!',
+  contactMessageErrorText: 'That\'s really embarrassing, but you can always contact me via <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a>.',
   emailRequired: 'Email needs to be a valid email. That\'s a shocker, right?',
   textRequired:
     'The text needs to be text. You can do more than a few characters, I believe in you!',
