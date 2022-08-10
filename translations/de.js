@@ -23,9 +23,8 @@ module.exports = {
           E-Mail: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a></p>
       <h2>Umsatzsteuer-ID:</h2>
       <p>
-      Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE318030105
-      </p><br>
-      <br>
+      Umsatzsteuer-Identifikationsnummer <br>(gemäß §27a Umsatzsteuergesetz): <br>DE318030105
+      </p>
       <h2>Haftung für Links</h2>
       <p>
           Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
@@ -53,16 +52,16 @@ module.exports = {
       </p>
   `,
   privacyPolicyContent: `
-      <h3>Allgemeine Hinweise</h3>
+      <h2>Allgemeine Hinweise</h2>
       <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn
           Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden
           können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten
           Datenschutzerklärung.</p>
-      <h3>Datenerfassung auf unserer Website</h3>
+      <h2>Datenerfassung auf unserer Website</h2>
       <p>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</p>
       <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem
           Impressum dieser Website entnehmen.</p>
-      <p>Wie erfasse wir Ihre Daten?</p>
+      <p>Wie erfassen wir Ihre Daten?</p>
       <p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten
           handeln, die Sie in ein Kontaktformular eingeben.</p>
       <p>Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem
@@ -77,16 +76,13 @@ module.exports = {
           Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im
           Impressum angegebenen Adresse an uns wenden. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen
           Aufsichtsbehörde zu.</p>
-      <h3>Analyse-Tools und Tools von Drittanbietern</h3>
+      <h2>Analyse-Tools und Tools von Drittanbietern</h2>
       <p>Beim Besuch unserer Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit
           Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in der Regel anonym; das
           Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden. Sie können dieser Analyse widersprechen oder sie durch die
           Nichtbenutzung bestimmter Tools verhindern. Detaillierte Informationen dazu finden Sie in der folgenden
           Datenschutzerklärung.</p>
-      <p>Sie können dieser Analyse widersprechen. Über die Widerspruchsmöglichkeiten werden wir Sie in dieser
-          Datenschutzerklärung informieren.</p>
-      <h3>2. Allgemeine Hinweise und Pflichtinformationen</h3>
-      <h3>Datenschutz</h3>
+      <h2>Allgemeine Hinweise und Pflichtinformationen</h2>
       <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
           personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser
           Datenschutzerklärung.</p>
@@ -96,7 +92,7 @@ module.exports = {
       <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail)
           Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
       </p>
-      <h3>Hinweis zur verantwortlichen Stelle</h3>
+      <h2>Hinweis zur verantwortlichen Stelle</h2>
       <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
       <p>
           Simon vom Eyser <br/>
@@ -105,22 +101,22 @@ module.exports = {
       </p>
       <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die
           Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.</p>
-      <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+      <h2>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h2>
       <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits
           erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die
           Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
-      <h3>Recht auf Datenübertragbarkeit</h3>
+      <h2>Recht auf Datenübertragbarkeit</h2>
       <p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert
           verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern
           Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es
           technisch machbar ist.</p>
-      <h3>Auskunft, Sperrung, Löschung</h3>
+      <h2>Auskunft, Sperrung, Löschung</h2>
       <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre
           gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein
           Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
           personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.</p>
       <p>&nbsp;</p>
-      <h3>3. Datenerfassung auf unserer Website</h3>
+      <h2>3. Datenerfassung auf unserer Website</h2>
       <p>Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr
           Browser automatisch an uns übermittelt. Dies sind:</p>
       <p>Browsertyp und Browserversion<br>

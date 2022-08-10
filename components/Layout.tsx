@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import Head from 'next/head'
 import React from 'react'
+import ActiveLink from './ActiveLink'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { Navigation } from './Navigation'
 
@@ -39,8 +40,17 @@ export const Layout: React.FC<LayoutProps> = ({
           <div className='bg-white shadow-md p-6 md:p-8'>
             {children}
           </div>
-          <div className='py-4 text-sm text-right space-x-3 text-neutral-600'>
-            <a href='#'>Impressum</a><a href='#'>Datenschutz</a>
+          <div className='py-4 text-sm text-right space-x-3 '>
+            <ActiveLink href="/legal-notice" activeClassName="!text-neutral-600 font-bold">
+              <a className="text-neutral-400">
+                Impressum
+              </a>
+            </ActiveLink>
+            <ActiveLink href="/privacy-policy" activeClassName="!text-neutral-600 font-bold">
+              <a className="text-neutral-400">
+                Datenschutz
+              </a>
+            </ActiveLink>
           </div>
 
         </div>

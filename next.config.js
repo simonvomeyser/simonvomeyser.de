@@ -8,13 +8,32 @@ const nextConfig = {
     domains: [
       {
         domain: 'simonvomeyser.com',
-        defaultLocale: 'en',
+        defaultLocale: 'en'
       },
       {
         domain: 'simonvomeyser.de',
-        defaultLocale: 'de',
+        defaultLocale: 'de'
+      }
+    ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/impressum',
+        destination: '/legal-notice',
+        permanent: false
       },
-    ],
+      {
+        source: '/datenschutz',
+        destination: '/privacy-policy',
+        permanent: false
+      },
+      {
+        source: '/datenschutzerklaerung',
+        destination: '/privacy-policy',
+        permanent: false
+      }
+    ]
   },
   webpack(config) {
     config.module.rules.push({
@@ -32,11 +51,11 @@ const nextConfig = {
                     currentColor: true,
                   }
                 }
-              ],
-            },
-          },
+              ]
+            }
+          }
         }
-      ],
+      ]
     })
 
     return config

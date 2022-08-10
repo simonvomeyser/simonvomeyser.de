@@ -49,7 +49,7 @@ export const useTranslation = () => {
 
   const __ = (token: TranslationKeyType) => translate(locale, token)
 
-  const ___ = (token: TranslationKeyType) => React.createElement('span', { dangerouslySetInnerHTML: { __html: translate(locale, token) } })
+  const ___ = (token: TranslationKeyType, as: 'span' | 'div' = 'span') => React.createElement(as, { dangerouslySetInnerHTML: { __html: translate(locale, token) } })
 
   return { __, ___ }
 }

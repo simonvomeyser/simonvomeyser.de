@@ -2,8 +2,16 @@
   @apply text-lg text-neutral-400 leading-[1.6];
 }
 
-.rich-text p + p {
+.rich-text > div > * + * {
   @apply mt-4
+}
+
+.rich-text > span > * + * {
+  @apply mt-4
+}
+
+.rich-text h2 {
+  @apply text-xl leading-tight mt-8 text-neutral-700;
 }
 
 .rich-text strong {
