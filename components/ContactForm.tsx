@@ -127,6 +127,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
               <div className='flex justify-center '>
                 <button disabled={isSubmitting}
                         ref={buttonRef}
+                        type="submit"
                         onClick={() => Object.keys(errors).length ? shortShake() : null}
                         className='py-2.5 p-4 min-w-[200px] bg-primary text-white text-lg'>
                   {__('send')}
