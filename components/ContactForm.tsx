@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import { ErrorMessage, Field, Form, Formik, FormikValues } from 'formik'
+import { useRouter } from 'next/router'
 import React from 'react'
 import { useTranslation } from '../hooks/useTranslation'
 import CheckmarkSvg from '../svg/checkmark.svg'
@@ -16,13 +17,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
 
   const { __, ___ } = useTranslation()
   const buttonRef = React.useRef<HTMLButtonElement>(null)
+  const { locale } = useRouter();
 
   function validateForm(values: FormikValues) {
     const errors: { email?: string, text?: string, privacy?: string } = {}
 
-    if (!values.email) {
-      errors.email = __('errorsRequired')
-    } else if (
+    if (
       !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
     ) {
       errors.email = __('errorsInvalidEmail')
@@ -45,12 +45,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
 
     const url = process.env.NEXT_PUBLIC_API_URL + '/contact'
 
-    console.log(url)
 
     fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(values),
+      body: JSON.stringify({...values, locale})
     })
       .then(r => {
         return r.json()
@@ -108,7 +107,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
                 <ErrorMessage name='text' component='div' className='text-sm text-red-400 fade-and-slide-up-on-render' />
               </div>
               <div className='mb-8'>
-                <label className='flex w-full custom-checkbox-label cursor-pointer' tabIndex={1}>
+                <label className='flex w-full custom-checkbox-label cursor-pointer' >
                   <Field type='checkbox' name='privacy' className='sr-only' />
                   <span
                     className={clsx('w-6 h-6 border rounded-sm inline-block mr-4 flex-shrink-0 relative border-neutral-200 bg-neutral-50', {

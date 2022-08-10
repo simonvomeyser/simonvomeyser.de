@@ -19,7 +19,7 @@ module.exports = {
       </p>
       <p>
           Phone: +49157 33915334<br>
-          Email: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a></p>
+          Email: <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a></p>
       <h2>Liability for links</h2>
       <p>
         This website contains links to external third-party websites, over the content of which I have no control. 
@@ -81,7 +81,7 @@ module.exports = {
     <p>
       Simon vom Eyser <br/>
       Phone: +49 1774100666 <br>
-      Email: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a>
+      Email: <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>
     </p>
     <p>The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and
         means of processing personal data (names, email addresses, etc.).</p>
@@ -164,23 +164,17 @@ module.exports = {
       Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>.
     </p>
     <p>
-      I offer <strong>planning</strong> and <strong>development</strong> for exciting projects and I am always interested to work with badass teams so we can learn from each other. Just hit me up 🙂
+        I can help you <strong>planning</strong>, <strong>communication</strong> and <strong>development</strong>. I am also always interested to work with cool teams, so we can learn from each other. Just hit me up 🙂
     </p>
   `,
   contactFormPrivacy: 'I am down with and thereby accept the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>, I trust you to not save my data.',
-  errorsRequired: [
-    "Obviously you need to fill this in right? 🤔",
-    "Wouldn't you like to fill this in?",
-    "We need this to continue!",
-    "Wouldn't this make sense to be required?",
-    "Oh no, you forgot to fill this in!",
-  ],
+  errorsRequired: "Oh no, you forgot to fill this in!",
   errorsInvalidEmail: 'Hm, that doesn\'t look like a valid email address 🤔',
   errorsMessageTooShort: 'A little bit too short, that\'s not a good conversation starter',
   emailPlaceholder: 'your email',
   textPlaceholder: 'ask me something',
   contactMessageErrorHeading: 'Oh snap, something went wrong!',
-  contactMessageErrorText: 'That\'s really embarrassing, but you can always contact me via <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a>.',
+  contactMessageErrorText: 'That\'s really embarrassing, but you can always contact me via <a class="underline" href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.',
   emailRequired: 'Email needs to be a valid email. That\'s a shocker, right?',
   textRequired:
     'The text needs to be text. You can do more than a few characters, I believe in you!',
@@ -189,7 +183,7 @@ module.exports = {
   send: 'send it!',
   contactMessageSuccessHeading: 'Awesome, it worked!',
   contactMessageSuccessText:
-    'I will get back to you soon! And if you were only testing this contact form I hope you think it looks fancy ✨',
+    'I will get back to you soon, I promise. You can always contact me via <a class="underline" href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.',
   pageNotFoundSubHeading: 'Computer says "NO" ... page was not found',
   pageNotFoundText:
     'The page you were trying to find does not exists. That makes me as sad as it probably makes you 😭',

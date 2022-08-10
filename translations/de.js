@@ -198,16 +198,12 @@ module.exports = {
     schicken.
   </p>
   <p>
-    Auf welchem Weg auch immer: Ich biete gerne Projektunterschtützung bei <strong>Konzeption</strong> und <strong>Entwicklung</strong>. Ich habe zudem immer Interesse an spannenden Projekten und an coolen Teams, in denen man viel voneinander lernen kann. Meld dich einfach! 🙂
+    Auf welchem Weg auch immer: Ich biete gerne Projektunterschtützung bei <strong>Konzeption</strong>, <strong>Kommunikation</strong>  und <strong>Entwicklung</strong>. Ich habe zudem immer Interesse an spannenden Projekten und an coolen Teams, in denen man viel voneinander lernen kann. Meld dich einfach! 🙂
   </p>
   `,
   contactFormPrivacy: 'Ich bin cool mit und akzeptiere hiermit die <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Hinweise zum Datenschutz.</a>. Ich vetraue Simon sozusagen, dass er meine Daten weder speichert noch weitergibt.',
-  errorsRequired: [
-    'Das ist ein Pflichtfeld, macht doch Sinn!',
-    'Hey, das ist ein Pflichtfeld...',
-    'Macht doch Sinn, dass das hier ein Pflichtfeld ist.',
-    'Ohne dieses Feld kann ich nicht anfangen...',
-  ],
+
+  errorsRequired: 'Hey, das ist ein Pflichtfeld...',
   errorsInvalidEmail: 'Hm, da kann ich keine E-Mail hinschicken 🤔',
   errorsMessageTooShort: 'Etwas mehr Text brauchst du noch, damit ich dir antworten kann',
   emailPlaceholder: 'Deine E-Mail',
@@ -222,7 +218,7 @@ module.exports = {
   send: 'Auf geht\'s!',
   contactMessageSuccessHeading: 'Yeah, das hat funktioniert!',
   contactMessageSuccessText:
-    'Ich melde mich bei dir. Und falls du das Kontaktformular nur getestet hast hoffe ich du hattest eine Menge Spaß  ✨',
+    'Ich melde mich sobald es geht bei dir. Du kannst mich aber auch unter <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a> kontaktieren.',
   pageNotFoundSubHeading:
     'Computer sagt "Nein!" ... die Seite wurde nicht gefunden',
   pageNotFoundText:

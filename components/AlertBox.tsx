@@ -16,11 +16,11 @@ export const AlertBox: React.FC<AlertBoxProps> = ({
 }) => {
 
   return (
-	<div className={clsx('border-2 p-4', className, {
+	<div className={clsx('border-2 p-4 text-center', className, {
     'bg-teal-100 border-teal-300 text-teal-400': type === 'success',
     'bg-red-100 border-red-300 text-red-400': type === 'error',
   })}>
-		<div className="text-lg mb-2">{heading}</div>
+		<div className="text-lg mb-2 font-semibold">{heading}</div>
     <div className="">
       {children}
     </div>
