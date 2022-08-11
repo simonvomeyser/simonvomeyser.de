@@ -181,6 +181,13 @@ module.exports = {
   emailAndTextRequired:
     'Without an email and enough text there is nothing this form can do for you...',
   send: 'send it!',
+  blogCopy : `
+  todo
+  `,
+  blogCta: 'todo',
+  blogCopy2: `
+  todo
+  `,
   contactMessageSuccessHeading: 'Awesome, it worked!',
   contactMessageSuccessText:
     'I will get back to you soon, I promise. You can always contact me via <a class="underline" href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.',

@@ -175,6 +175,17 @@ E-Mail: info@simonvomeyser.de</p>
   contactMessageSuccessHeading: 'Yeah, das hat funktioniert!',
   contactMessageSuccessText:
     'Ich melde mich sobald es geht bei dir. Du kannst mich aber auch unter <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a> kontaktieren.',
+  blogCopy : `
+   <p>
+   Ich schreibe mehr oder weniger regelmäßig einen Blog unter https://blog.simonvomeyser.de. Die Themen bewegen sich in einem breiten Spektrum von Projektmanagement und persönlicher Produktivität bis zu Webentwicklung mit meinen bevorzugten Technologien React, Vue.js, Laravel und Wordpress.
+  </p>
+  <p>
+  Der Blog ist auf English und wahrscheinlich eher für andere Entwickler interessant. Aber auch falls du einfach Interesse hast zu sehen, was mich so beschäftigt schau doch mal vorbei! Achja, du solltest dich nicht an kindischen Witzen stören.
+</p>
+  `,
+  blogCta: 'Schau mal vorbei!',
+  blogCopy2: `Hier siehst du eine kleine Auswahl meiner letzten Artikel, ein Klick führt dich auf die jeweilige Seite.`,
+
   pageNotFoundSubHeading:
     'Computer sagt "Nein!" ... die Seite wurde nicht gefunden',
   pageNotFoundText:

@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
   i18n: {
     locales: ['en', 'de'],
     defaultLocale: 'en',
