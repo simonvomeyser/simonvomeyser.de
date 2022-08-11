@@ -14,6 +14,10 @@
   @apply text-xl leading-tight mt-8 text-neutral-700;
 }
 
+.rich-text h3 {
+  @apply mt-6 text-neutral-700;
+}
+
 .rich-text strong {
   background: var(--teal-100);
   color: var(--teal-400);
