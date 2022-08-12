@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import { Container } from '../components/Container'
 import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { useTranslation } from '../hooks/useTranslation'
@@ -34,14 +35,21 @@ const Index: NextPage = () => {
         </div>
       </div>
       <div className='my-14 h-0.5 bg-primary mx-auto max-w-xs'></div>
-      <div className='max-w-screen-sm mx-auto'>
+      <Container>
+
         <div className='text-center font-special text-2xl text-neutral-600 mb-8'>
           {___('aboutMeReadMoreHeading1')}
         </div>
-        <div className='rich-text'>
+        <div className='rich-text mb-10'>
           {___('aboutMeReadMoreText1')}
         </div>
-      </div>
+        <div className='text-center font-special text-2xl text-neutral-600 mb-8'>
+          {___('aboutMeReadMoreHeading2')}
+        </div>
+        <div className='rich-text'>
+          {___('aboutMeReadMoreText2')}
+        </div>
+      </Container>
     </Layout>
   )
 }
