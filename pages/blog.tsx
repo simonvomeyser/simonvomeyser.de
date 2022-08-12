@@ -1,30 +1,37 @@
-import type { GetStaticPropsContext, NextPage } from 'next'
-import React, { useState } from 'react'
+import type { NextPage } from 'next'
+import React from 'react'
 import { Container } from '../components/Container'
 import { FadeInImage } from '../components/FadeInImage'
 import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { useTranslation } from '../hooks/useTranslation'
+import ArrowRightSvg from '../svg/arrow-right.svg'
 
+type BlogPostType = {
+  title: string
+  list_image: string
+  excerpt: string
+  tags: string[]
+  link: string;
+}
 
-const Index: NextPage = ({ posts }) => {
+const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
   const { __, ___ } = useTranslation()
-  const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null)
 
   return (
     <Layout>
       <PageHeading>
         <h1>{__('navigationBlog')}</h1>
       </PageHeading>
-      <Container className="rich-text mb-8">
+      <Container className='rich-text mb-8'>
         {___('blogCopy')}
       </Container>
-      <Container className="mb-8">
+      <Container className='mb-8 flex justify-center'>
 
-          <a href='https://simple-web.dev'
-             className='p-2 min-w-[300px] text-center inline-block mx-auto bg-primary font-bold text-white'>
-              {__('blogCta')}
-          </a>
+        <a href='https://simple-web.dev'
+           className='p-2 min-w-[300px] text-center inline-block mx-auto bg-primary font-bold text-white'>
+          {__('blogCta')}
+        </a>
       </Container>
       <Container>
         <div className='rich-text max-w-screen-sm mx-auto mb-8'>
@@ -33,23 +40,32 @@ const Index: NextPage = ({ posts }) => {
       </Container>
 
       <div className='grid sm:grid-cols-2 gap-4'>
-        {posts.map((node, index) => (
-          <div className="shadow" key={index}>
+        {posts.map((post, index) => (
+          <div className='shadow flex flex-col' key={index}>
             <div className='bg-neutral-100 pt-[56.6666%] relative'>
               <div className='absolute inset-0 w-full h-full'>
                 <FadeInImage
-                  src={node.list_image}
-                  alt={node.title}
+                  src={post.list_image}
+                  alt={post.title}
                   width={456}
                   height={258}
                   objectFit='cover'
                 />
+                <a href={post.link} className='absolute inset-0 w-full h-full'>
+                </a>
               </div>
             </div>
-            <div className='px-4 pt-4 pb-8'>
-              <div className='text-sm text-neutral-400'>{node.tags.join(', ')}</div>
-              <div className='text-2xl mb-4'>{node.title}</div>
-              <div className='small-basic-rich-text' dangerouslySetInnerHTML={{ __html: node.excerpt.trim() }} />
+            <div className='px-4 pt-4 flex flex-col h-full pb-4'>
+              <div className='text-sm text-neutral-400'>{post.tags.join(', ')}</div>
+              <div className='text-2xl mb-4'>{post.title}</div>
+              <div className='small-basic-rich-text mb-4'
+                   dangerouslySetInnerHTML={{ __html: post.excerpt.trim() }}
+              />
+              <div className='flex justify-end mt-auto'>
+                <a href={post.link} className='hover:text-neutral-700 transition text-neutral-400'>
+                <ArrowRightSvg className='w-8 h-auto ' />
+                </a>
+              </div>
             </div>
           </div>
         ))}
@@ -59,7 +75,7 @@ const Index: NextPage = ({ posts }) => {
   )
 }
 
-export async function getStaticProps(context: GetStaticPropsContext) {
+export async function getStaticProps() {
 
   const posts = await fetch('https://simple-web.dev/api/recent-posts')
     .then(res => res.json()).then(data => {
