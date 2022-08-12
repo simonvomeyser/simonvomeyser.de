@@ -46,7 +46,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
         <SearchSvg className='absolute top-1/2  transform  -translate-y-1/2 left-3 w-5 h-5 text-neutral-200' />
 
         <input value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-               className='w-full border-2 border-neutral-200 placeholder:text-neutral-200 pl-11 rounded-full py-2 px-4 placeholder-gray-500 focus:outline-none focus:border-primary focus:placeholder-gray-400 transition'
+               className='w-full border border-neutral-250 rounded-sm px-4 py-3 bg-neutral-50 text-lg block pl-11'
                placeholder={__('projectsSearchPlaceholder')}
         />
         </div>
