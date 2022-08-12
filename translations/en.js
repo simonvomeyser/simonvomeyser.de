@@ -168,7 +168,7 @@ module.exports = {
     </p>
   `,
   contactFormPrivacy: 'I am down with and thereby accept the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>, I trust you to not save my data.',
-  errorsRequired: "Oh no, you forgot to fill this in!",
+  errorsRequired: 'Oh no, you forgot to fill this in!',
   errorsInvalidEmail: 'Hm, that doesn\'t look like a valid email address 🤔',
   errorsMessageTooShort: 'A little bit too short, that\'s not a good conversation starter',
   emailPlaceholder: 'your email',
@@ -181,12 +181,17 @@ module.exports = {
   emailAndTextRequired:
     'Without an email and enough text there is nothing this form can do for you...',
   send: 'send it!',
-  blogCopy : `
-  todo
+  blogCopy: `
+    <p>
+    I do write a blog on a (more or less) regular basis. The topics range around project management, team improvement, productivity and of course web development with Laravel, React and Vue.js.
+    </p>
+    <p>
+     The blog's target audience is mainly web developers, but everybody is welcomed to read it, as long as you can handle my nerdy and sometimes childish humor.
+    </p>
   `,
-  blogCta: 'todo',
+  blogCta: 'Let\'s have a look!',
   blogCopy2: `
-  todo
+  Here you can see the most recent articles, a click directly leads you to the post.
   `,
   contactMessageSuccessHeading: 'Awesome, it worked!',
   contactMessageSuccessText:
