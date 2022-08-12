@@ -12,9 +12,9 @@ const Index: NextPage = () => {
 
   return (
     <Layout>
-      <div className='flex pt-16 relative'>
+      <div className='flex pt-8 relative'>
         <AboutMeBackground className='absolute w-72 top-0 left-0 h-auto text-teal-100' />
-        <div className='flex-1 px-9 relative'>
+        <div className='flex-1 px-9 relative flex flex-col justify-center'>
           <PageHeading>
             <h1>
               {__('niceToMeetYou')}

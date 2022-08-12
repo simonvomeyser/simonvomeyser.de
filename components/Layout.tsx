@@ -37,7 +37,7 @@ export const Layout: React.FC<LayoutProps> = ({
             </div>
 
           </div>
-          <div className='bg-white shadow-md p-6 md:p-8'>
+          <div className='bg-white shadow-md px-6 md:px-8 py-10 md:py-12'>
             {children}
           </div>
           <div className='py-4 text-sm text-right space-x-3 '>
