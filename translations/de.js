@@ -113,30 +113,38 @@ E-Mail: info@simonvomeyser.de</p>
       Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf. <br> <br> Begonnen hat mein Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.  
     </p>
     <p>
-      Anfang 2018 habe ich meinen Master in Medieninformatik an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen und habe dort auch als Tutor unterrichtet... oder zumindest versucht, dabei weniger verwirrt zu sein als die Studenten.
+      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, dabei weniger verwirrt zu sein als die Studenten.
     </p>
     <p>
-      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media</a> als Webentwickler und wurde dort bald Teamleiter und hauptverantwortlicher IT-Projektleiter. Ich war maßgeblich beteiligt bei der umstrukturierung und modernisierung der Arbeits.... todo hightligt war.
+      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 nach Laravel mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
     </p>
     <p>
-      Anfang 2021 entschied ich mich für die vollständige Freiberuflichkeit
+      Anfang 2021 entschied ich mich dafür, <strong>Vollzeit-Freiberufler</strong> zu werden. 
+      Ich plane und betreue nun umfangreiche Webprojekte, auch gerne mit anderen Freiberuflern oder Agenturen in Teamarbeit. <br>
+      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für ein Ministerium des Landes Rheinland-Pfalz gemeinsam mit <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a> und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit der Agentur <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
     </p>
   `,
-  aboutMeReadMoreHeading2: '<h2>Wonach ich suche</h2>',
+  aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
   aboutMeReadMoreText2: `
-    <p> Momentan bin ich <strong>in Teilzeit freiberuflich</strong> tätig und schlüpfe dabei in verschiedene Rollen. Bei größeren Projekten arbeite ich häufig und gern mit tollen Agenturen wie <a href='https://bitmade.de/' target='_blank' rel='noopener noreferrer'>Bitmade</a>, <a href='https://g31design.com/' target='_blank' rel='noopener noreferrer'>g31</a>, <a href='https://agentur.pink/' target='_blank' rel='noopener noreferrer'>Pink Werbung</a> uvm. zusammen. 
+    <p>
+      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne Teil eines größeren Teams und auch gerne mit Teamverantwortung.
+      </p><p> 
+      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Typo3, Drupal, Angular und anderen Frameworks sammeln, aber meiner Meinung nach muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
+      Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
     </p>
     <p>
-      Ebenfalls <strong>in Teilzeit, als Senior Project Manager</strong>, arbeite ich bei der <a href='https://www.dekra-media.de' target='_blank' rel='noopener noreferrer'>DEKRA Media GmbH</a>.  Dort leite ich ein kleines Team aus großartigen Entwicklern und wir tüfteln gemeinsam an E-Learning Systemen in mehrjähirgen Entwicklungen. Auch fluchen wir gerne agil über den Internet Explorer.
+    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis kann ich mit genügend Vorlaufzeit zur Planung für drei Tage in der Woche fest zusagen.
     </p>
-  `,
-  aboutMeReadMoreText3: `
-      Beispiele für fertige Produkte aus beiden Bereichen kannst du dir unter {projectLink} anschauen, mehr über was ich suche und anbiete findest du unter {contactLink}.
-  `,
-  aboutMeReadMoreText4: `
+    <p>
+      Beispiele für Projekte aus beiden Bereichen kannst du dir unter <a href='/projects'>Projekte</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.
+    </p>
     <p>
     Bis später :) <br/> Simon
     </p>
+  `,
+  aboutMeReadMoreText3: `
+  `,
+  aboutMeReadMoreText4: `
   `,
   projectsCopy: `
     <p>Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
