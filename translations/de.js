@@ -113,10 +113,10 @@ E-Mail: info@simonvomeyser.de</p>
       Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf.  
     </p>
     <p>
-      Begonnen hat mein berufliches Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
+      Begonnen das ganze Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
     </p>
     <p>
-      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein als die Studenten.
+      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein, als die Studenten.
     </p>
     <p>
       Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 nach Laravel mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
