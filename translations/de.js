@@ -140,7 +140,7 @@ E-Mail: info@simonvomeyser.de</p>
   `,
   projectsCopy: `
     <p>Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
-    <p>Natürlich sind die Projekte meist noch wesentlich interessanter, als ich es hier beschreiben kann. Besonders die Anforderungsanalyse und der Prouess sind dem fertigen Produkt nicht mehr sichtbar, dabei halte ich beides für wesentlich wichtiger, als jede Technologie.</p>
+    <p>Natürlich sind die Projekte meist noch wesentlich interessanter, als ich es hier beschreiben kann. Besonders die Anforderungsanalyse und die Kommunikation halte ich für wesentlich wichtiger, als jede Technologie.</p>
   `,
   projectsShowOldProjects: 'Ältere Projekte zeigen',
   projectsNoResults: 'Keine Projekte gefunden',
