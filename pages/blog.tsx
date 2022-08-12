@@ -33,8 +33,8 @@ const Index: NextPage = ({ posts }) => {
       </Container>
 
       <div className='grid sm:grid-cols-2 gap-4'>
-        {posts.map((node) => (
-          <div className="shadow" id={node.slug}>
+        {posts.map((node, index) => (
+          <div className="shadow" key={index}>
             <div className='bg-neutral-100 pt-[56.6666%] relative'>
               <div className='absolute inset-0 w-full h-full'>
                 <FadeInImage
@@ -49,6 +49,7 @@ const Index: NextPage = ({ posts }) => {
             <div className='px-4 pt-4 pb-8'>
               <div className='text-sm text-neutral-400'>{node.tags.join(', ')}</div>
               <div className='text-2xl mb-4'>{node.title}</div>
+              <div className='small-basic-rich-text' dangerouslySetInnerHTML={{ __html: node.excerpt.trim() }} />
             </div>
           </div>
         ))}
@@ -62,8 +63,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 
   const posts = await fetch('https://simple-web.dev/api/recent-posts')
     .then(res => res.json()).then(data => {
-      console.log(data)
-      return data
+      return data.data
     })
 
   return {
