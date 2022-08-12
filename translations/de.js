@@ -110,10 +110,13 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf. <br> <br> Begonnen hat mein Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.  
+      Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf.  
     </p>
     <p>
-      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, dabei weniger verwirrt zu sein als die Studenten.
+      Begonnen hat mein berufliches Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
+    </p>
+    <p>
+      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein als die Studenten.
     </p>
     <p>
       Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 nach Laravel mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
@@ -121,7 +124,7 @@ E-Mail: info@simonvomeyser.de</p>
     <p>
       Anfang 2021 entschied ich mich dafür, <strong>Vollzeit-Freiberufler</strong> zu werden. 
       Ich plane und betreue nun umfangreiche Webprojekte, auch gerne mit anderen Freiberuflern oder Agenturen in Teamarbeit. <br>
-      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für ein Ministerium des Landes Rheinland-Pfalz gemeinsam mit <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a> und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit der Agentur <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
+      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz gemeinsam mit <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a> und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit der Agentur <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
@@ -129,17 +132,17 @@ E-Mail: info@simonvomeyser.de</p>
     <p>
       Ich biete Projektunterstützung bei Planung und Entwicklung, gerne Teil eines größeren Teams und auch gerne mit Teamverantwortung.
       </p><p> 
-      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Typo3, Drupal, Angular und anderen Frameworks sammeln, aber meiner Meinung nach muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
+      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Typo3, Drupal, Angular und anderen Frameworks sammeln, aber als Entwickler muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
       Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
     </p>
     <p>
-    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis kann ich mit genügend Vorlaufzeit zur Planung für drei Tage in der Woche fest zusagen.
+    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis kann ich mit genügend Vorlaufzeit zur Planung für höchstens drei Tage in der Woche anbieten.
     </p>
     <p>
-      Beispiele für Projekte aus beiden Bereichen kannst du dir unter <a href='/projects'>Projekte</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.
+      Beispiele für Projekte kannst du dir unter <a href='/projects'>hier</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.
     </p>
     <p>
-    Bis später :) <br/> Simon
+    Bis bald! :) <br/> Simon
     </p>
   `,
   aboutMeReadMoreText3: `
