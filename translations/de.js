@@ -130,7 +130,7 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
   aboutMeReadMoreText2: `
     <p>
-      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne Teil eines größeren Teams und auch gerne mit Teamverantwortung.
+      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und auch gerne mit Teamverantwortung.
       </p><p> 
       Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Typo3, Drupal, Angular und anderen Frameworks sammeln, aber als Entwickler muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
       Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
