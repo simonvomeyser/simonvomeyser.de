@@ -1,5 +1,5 @@
 .rich-text {
-  @apply sm:text-lg text-neutral-400 leading-[1.6];
+  @apply text-lg text-neutral-400 leading-[1.6];
 }
 
 .rich-text > div > * + * {
@@ -33,16 +33,26 @@
 
 .rich-text a:after {
   transition: 0.3s width ease-in-out;
-  background: var(--teal-300);
+  background: var(--neutral-400);
   display: block;
   content: ' ';
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   left: 50%;
-  height: 3px;
+  height: 1px;
   width: calc(100% + 5px);
   transform: translateX(-50%);
 }
+@media (min-width: 600px) {
+.rich-text a:after {
+  background: var(--teal-300);
+  height: 3px;
+  bottom: 0;
+
+}
+
+}
+
 
 .rich-text a:hover {
   color: var(--teal-300);
