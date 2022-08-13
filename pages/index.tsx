@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import { Container } from '../components/Container'
-import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { useTranslation } from '../hooks/useTranslation'
 import AboutMeImage from '../img/about-me-1.jpg'
@@ -11,10 +10,10 @@ const Index: NextPage = () => {
   const { __, ___ } = useTranslation()
 
   return (
-    <Layout>
+    <>
       <div className='flex pt-8 relative'>
-        <AboutMeBackground className='absolute w-72 top-0 left-0 h-auto text-teal-100' />
-        <div className='flex-1 px-9 relative flex flex-col justify-center'>
+        <AboutMeBackground className='hidden sm:block absolute w-72 top-0 left-0 h-auto text-teal-100' />
+        <div className='flex-1 sm:px-9 relative flex flex-col justify-center'>
           <PageHeading>
             <h1>
               {__('niceToMeetYou')}
@@ -27,7 +26,7 @@ const Index: NextPage = () => {
             {___('aboutMeFirstText')}
           </p>
         </div>
-        <div className='w-[40%] pt-[60%] relative'>
+        <div className='w-[40%] pt-[60%] relative hidden sm:block'>
           <div className=' w-full h-full absolute inset-0'>
             <Image priority={true} src={AboutMeImage} width={378} height={566} objectFit='cover'
                    alt={__('aboutMeImageAlt')} />
@@ -50,7 +49,7 @@ const Index: NextPage = () => {
           {___('aboutMeReadMoreText2')}
         </div>
       </Container>
-    </Layout>
+    </>
   )
 }
 

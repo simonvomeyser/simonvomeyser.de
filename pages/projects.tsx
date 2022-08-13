@@ -1,6 +1,5 @@
 import type { GetStaticPropsContext, NextPage } from 'next'
 import { useState } from 'react'
-import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { ProjectCard } from '../components/ProjectCard'
 import { ProjectType } from '../d'
@@ -30,7 +29,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
   }
 
   return (
-    <Layout>
+    <>
       <PageHeading>
         <h1>{__('navigationProjects')}</h1>
       </PageHeading>
@@ -70,7 +69,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
           </button>
         </div>
       )}
-    </Layout>
+    </>
   )
 }
 

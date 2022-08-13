@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import React from 'react'
 import { Container } from '../components/Container'
 import { FadeInImage } from '../components/FadeInImage'
-import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { useTranslation } from '../hooks/useTranslation'
 import ArrowRightSvg from '../svg/arrow-right.svg'
@@ -19,7 +18,7 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
   const { __, ___ } = useTranslation()
 
   return (
-    <Layout>
+    <>
       <PageHeading>
         <h1>{__('navigationBlog')}</h1>
       </PageHeading>
@@ -27,9 +26,8 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
         {___('blogCopy')}
       </Container>
       <Container className='mb-8 flex justify-center'>
-
         <a href='https://simple-web.dev'
-           className='p-2 min-w-[300px] text-center inline-block mx-auto bg-primary font-bold text-white'>
+           className='p-2 w-full sm:min-w-[300px] text-center inline-block mx-auto bg-primary font-bold text-white'>
           {__('blogCta')}
         </a>
       </Container>
@@ -71,7 +69,7 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
         ))}
       </div>
 
-    </Layout>
+    </>
   )
 }
 

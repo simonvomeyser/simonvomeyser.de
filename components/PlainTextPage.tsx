@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-import { Layout } from './Layout'
 import { PageHeading } from './PageHeading'
 
 
@@ -15,7 +14,7 @@ export const PlainTextPage: React.FC<PlainTextPageProps> = ({
                                                             }) => {
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{heading}</title>
         <meta name='robots' content='noindex' />
@@ -26,6 +25,6 @@ export const PlainTextPage: React.FC<PlainTextPageProps> = ({
       <div className='rich-text max-w-screen-sm mx-auto mb-8'>
         {children}
       </div>
-    </Layout>
+    </>
   )
 }

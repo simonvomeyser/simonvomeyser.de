@@ -1,5 +1,5 @@
 .rich-text {
-  @apply text-lg text-neutral-400 leading-[1.6];
+  @apply sm:text-lg text-neutral-400 leading-[1.6];
 }
 
 .rich-text > div > * + * {

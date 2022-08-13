@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import React, { useState } from 'react'
 import { ContactForm } from '../components/ContactForm'
 import { ContactFormAlertBox } from '../components/ContactFormAlertBox'
-import { Layout } from '../components/Layout'
 import { PageHeading } from '../components/PageHeading'
 import { useTranslation } from '../hooks/useTranslation'
 
@@ -12,7 +11,7 @@ const Index: NextPage = () => {
   const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null)
 
   return (
-    <Layout>
+    <>
       <PageHeading>
         <h1>{__('navigationContact')}</h1>
       </PageHeading>
@@ -33,7 +32,7 @@ const Index: NextPage = () => {
 
       </div>
 
-    </Layout>
+    </>
   )
 }
 
