@@ -136,7 +136,7 @@ E-Mail: info@simonvomeyser.de</p>
       Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
     </p>
     <p>
-    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis kann ich mit genügend Vorlaufzeit zur Planung für höchstens drei Tage in der Woche anbieten.
+    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis ist aber durchaus möglich.
     </p>
     <p>
       Beispiele für Projekte kannst du dir unter <a href='/projects'>hier</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.

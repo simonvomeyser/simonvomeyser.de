@@ -125,23 +125,46 @@ module.exports = {
     As a fullstack developer, I am specialized in Javascript Frontend Frameworks (Vue.js, React.js) and Laravel. <br> <br>
     As a project manager, I use agile development techniques (Scrum, Kanban) ... and a lot of coffee ☕️.
    `,
-  aboutMeReadMoreHeading1: '<h2>Here is a little story about me! </h2>',
+  aboutMeReadMoreHeading1: '<h2>A little story about me! </h2>',
   aboutMeReadMoreText1: `
     <p>
-      I've been working in web development since <strong>12 years</strong> and I love what I do. <br><br> I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. <br><br> These days I help to make big web projects come to life as a <strong>freelancing Full Stack Developer</strong> and <strong>Project Manager</strong>
+      I've been working in web development since <strong>12 years</strong> and I love what I do. 
     </p>
     <p>
-      I finished my Master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018. I also taught students there... or at least I tried to be the least confused person in the room.
+     I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
+    </p>
+    <p>
+      I finished my Master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.3 (about a 	3,7 GPA). I also taught students there... or at least I tried to be the least confused person in the room.
+    </p>
+    <p>
+      I started working for the company <a href='https://dekra-media.de/' target='_blank'>DEKRA Media Gmbh</a> as a Web-developer while a was still studying and joined after my master’s degree as a <strong>Project Manger</strong> and <strong>Teamleader</strong> of the eight-person web team. <br>
+      I am especially proud of the successful relaunch of the company’s big SaaS product <a href='https://dekra-safety-web.eu/' target='_blank'>Dekra Safety Web</a> - moving from a Typo3 to a modern, test-driven multi-tenant Laravel application with about a quarter of a million end-users.
+    </p>
+    <p>
+      Since 2021 I decided to become a <strong>full-time freelancer</strong>. Since then I worked for a lot of projects with different clients, teams and agencies. 
+      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government together with <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a>, and the big relaunch of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> together with the agency <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
     </p>
   `,
-  aboutMeReadMoreHeading2: '<h2>What I am doing right now</h2>',
+  aboutMeReadMoreHeading2: '<h2>What I offer - and what not</h2>',
   aboutMeReadMoreText2: `
     <p>
-      When I am <strong>part-time freelancing</strong>, I work on various projects that <i>spark my intrest and joy</i>. I do this alone or as a teamplayer with awesome agencies like <a href='https://bitmade.de/' target='_blank' rel='noopener noreferrer'>Bitmade</a>, <a href='https://g31design.com/' target='_blank' rel='noopener noreferrer'>g31</a>, <a href='https://agentur.pink/' target='_blank' rel='noopener noreferrer'>Pink Werbung</a> and many more.
+      I offer consulting, project management and web development. I am comfortable working as part of a bigger team and in a team lead position.
     </p>
     <p>
-      I also work <strong> part time as a senior project manager</strong> at the company <a href='https://www.dekra-media.de' target='_blank' rel='noopener noreferrer'>DEKRA Media GmbH</a>. Over there I am leading a small team of awesome developers specialized in e-learning and web solutions. We also curse a lot about Internet Explorer in a really agile way.
+      I am specialized in Javascript Frontend Frameworks (Vue.js, React.js) and the PHP Framework Laravel. I can't (and quite frankly shouldn't) offer any services outside my expertise, even if I am familiar with a few more technologies like Wordpress, Drupal and others. 
     </p>
+    <p>
+     I like working as a contractor and as a freelancer, but I am <strong>not looking for a full-time job</strong>. Part-time might be an option.
+    </p>
+    <p>
+      You can look at some examples of my work under <a href='/projects'>projects</a> or say hello to me under <a href='/contact'>contact</a>.
+    </p>
+    <p>
+     hope to hear from you soon! :) <br>
+     Simon
+      
+    </p>
+
   `,
   aboutMeReadMoreText3: `
       You can find examples of finished products on my {projectLink} page. You want to ask me something or find out more about what I offer? Awesome! Jump right to the {contactLink} page! 
