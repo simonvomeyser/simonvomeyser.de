@@ -5,6 +5,7 @@ import ExternalLinkSvg from '../svg/external-link.svg'
 import FullscreenSvg from '../svg/fullscreen.svg'
 import PlayScreenSvg from '../svg/play-screen.svg'
 import StopSquareSvg from '../svg/stop-square.svg'
+import { slugify } from '../util/slugify'
 import { FadeInImage } from './FadeInImage'
 
 export type ProjectCardProps = {
@@ -32,7 +33,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
 
 
   return (
-    <div className={clsx(' shadow project-card-animation', className)} style={style}>
+    <div className={clsx(' shadow project-card-animation', className)} style={style} id={slugify(project.name)}>
       <div className='bg-neutral-100 pt-[56.6666%] relative'>
         <div className='absolute inset-0 w-full h-full'>
           <FadeInImage
@@ -98,8 +99,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
             </>
           )}
           {project.link && (
-
             <a href={project.link}
+               target="_blank" rel="noopener noreferrer"
                className='rounded-full bg-neutral-700 inline-flex justify-center items-center text-white w-10 h-10 hover:bg-primary hover:scale-105 transition duration-300 relative'>
               <ExternalLinkSvg
                 className='w-4 h-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' />
