@@ -119,12 +119,12 @@ E-Mail: info@simonvomeyser.de</p>
       Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein, als die Studenten.
     </p>
     <p>
-      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 nach Laravel mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
+      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 zu einer Test-Driven Laravel/Vue App mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
     </p>
     <p>
       Anfang 2021 entschied ich mich dafür, <strong>Vollzeit-Freiberufler</strong> zu werden. 
       Ich plane und betreue nun umfangreiche Webprojekte, auch gerne mit anderen Freiberuflern oder Agenturen in Teamarbeit. <br>
-      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz gemeinsam und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
+      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz und der Relaunch der Webseite/Ticketshop des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
@@ -132,11 +132,10 @@ E-Mail: info@simonvomeyser.de</p>
     <p>
       Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und auch gerne mit Teamverantwortung.
       </p><p> 
-      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Drupal und anderen Frameworks sammeln, aber als Entwickler muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
-      Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
+      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Drupal und anderen Frameworks sammeln, aber kann (und sollte) in diesem Bereich außerhalb meiner Spezialisierung keine Betreuung oder Weiterentwicklung von Projekten anbieten <br>
     </p>
     <p>
-    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Ein Teilzeit-Arbeitsverhältnis ist aber durchaus möglich.
+    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Eine Zusammenarbeit für meherere, feste Tag in der Woche während eines begrenzten Zeitraums ist aber häufig eine gute Idee. 
     </p>
     <p>
       Beispiele für Projekte kannst du dir unter <a href='/projects'>hier</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.
