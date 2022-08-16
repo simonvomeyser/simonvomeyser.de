@@ -142,7 +142,7 @@ module.exports = {
     </p>
     <p>
       Since 2021 I decided to become a <strong>full-time freelancer</strong>. Since then I worked for a lot of projects with different clients, teams and agencies. 
-      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government together with <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a>, and the big relaunch of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> together with the agency <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
+      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government, and the big relaunch of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>What I offer - and what not</h2>',

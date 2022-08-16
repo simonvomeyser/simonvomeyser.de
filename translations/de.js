@@ -124,7 +124,7 @@ E-Mail: info@simonvomeyser.de</p>
     <p>
       Anfang 2021 entschied ich mich dafür, <strong>Vollzeit-Freiberufler</strong> zu werden. 
       Ich plane und betreue nun umfangreiche Webprojekte, auch gerne mit anderen Freiberuflern oder Agenturen in Teamarbeit. <br>
-      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz gemeinsam mit <a href='https://pixelfeinkost.de/' target='_blank'>Pixelfeinkost</a> und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit der Agentur <a href='https://bitmade.de' target='_blank'>Bitmade</a>.
+      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz gemeinsam und der Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
@@ -132,7 +132,7 @@ E-Mail: info@simonvomeyser.de</p>
     <p>
       Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und auch gerne mit Teamverantwortung.
       </p><p> 
-      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Typo3, Drupal, Angular und anderen Frameworks sammeln, aber als Entwickler muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
+      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Drupal und anderen Frameworks sammeln, aber als Entwickler muss man sich auf einen bestimmten Bereich spezialisieren, um in diesem ein wirklicher Experte zu sein.<br>
       Ich helfe also gerne bei Relaunches oder Neuentwicklungen, aber kann keine Betreuung oder Weiterentwicklung von Projekten außerhalb meiner Spezialisierung anbieten.
     </p>
     <p>
