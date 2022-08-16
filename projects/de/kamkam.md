@@ -7,6 +7,7 @@ name: KamKam Video
 excerpt:
 logo: listicon-kamkam.png
 technologies: ['react', 'gatsby']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660646123/videos-simonvomeyser.de/kamkam.mp4
 clients: []
 ---
 
