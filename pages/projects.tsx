@@ -22,6 +22,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
     projectsToShow = allProjects.filter(project => {
       return (
         project?.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          project?.technologies?.join(' ').toLowerCase().includes(searchQuery.toLowerCase()) ||
           project?.html?.toLowerCase().includes(searchQuery.toLowerCase())
       )
 

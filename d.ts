@@ -8,4 +8,5 @@ export type ProjectType = {
   logo: string;
   link?: string;
   videoUrl?: string;
+  technologies?: string[];
 }
