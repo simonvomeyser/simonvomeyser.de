@@ -7,7 +7,7 @@ name: Voss Telekom LR
 excerpt:
 logo: listicon-voss.png
 technologies: ['svelte', 'laravel']
-clients: []
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753830/videos-simonvomeyser.de/voss.mp4
 ---
 
 Complex shopping tool for Voss Telekom GmbH. The second project with the Svelte JavaScript frontend framework. The SPA is particularly appealing to end customers because of its animations.

@@ -7,7 +7,7 @@ name: Pink Werbung
 excerpt:
 logo: listicon-pink.png
 technologies: ['vuejs', 'wordpress', 'lumen']
-clients: ['pink']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753828/videos-simonvomeyser.de/pink.mp4
 ---
 
 Großer Relaunch der Webseite der verrückt genialen Agentur PINK. Die Seite enthält eine Menge coole Details wie eine etwas andere Teamseite, einen Social Media Stream, filterbare Projekte und ein verstecktes Snake Spiel (tippe "snake" irgendwo auf der Seite).

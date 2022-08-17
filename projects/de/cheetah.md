@@ -7,7 +7,7 @@ name: Cheetah Events
 excerpt:
 logo: listicon-cheetah.png
 technologies: ['svelte', 'laravel', 'javascript']
-clients: []
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753829/videos-simonvomeyser.de/cheetah.mp4
 ---
 
 Partyplaner für Eventbuchungen in dem Nachtclub "Cheetah", umgesetzt mit Laravel und mit dem neueren Javascript Frontend Framework "Svelte" Alle Upselling-Positionen und Optionen sind über ein Laravel Nova Backend pflegbar.

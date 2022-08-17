@@ -7,7 +7,7 @@ name: Agentur Pink
 excerpt:
 logo: listicon-pink.png
 technologies: ['vuejs', 'wordpress', 'lumen']
-clients: ['pink']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753828/videos-simonvomeyser.de/pink.mp4
 ---
 
 Big relaunch of the crazy agency's website containing a lot of features like a very special teampage, a hidden snake game (type "snake" anywhere), a social media stream and filterable projects,

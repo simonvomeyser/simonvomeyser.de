@@ -7,7 +7,7 @@ name: SHEARER Creative Studio
 excerpt:
 logo: listicon-shearer.png
 technologies: ['gatsby', 'react', 'javascript']
-clients: []
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753834/videos-simonvomeyser.de/shearer.mp4
 ---
 
 Great project for the modern, gender-neutral hair salon "SHEARER Creative Studio".
