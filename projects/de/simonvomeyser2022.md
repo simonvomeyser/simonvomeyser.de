@@ -5,8 +5,8 @@ year: 2022
 month: 8
 name: Relaunch of this website 2022
 excerpt:
-logo: listicon-simonvomeyser2.0.png
-technologies: ['react', 'next', 'javascript', 'typescript'']
+logo: listicon-simonvomeyser2022.png
+technologies: ['react', 'next', 'javascript', 'typescript']
 clients: []
 ---
 

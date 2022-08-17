@@ -13,3 +13,5 @@ clients: ['pink']
 A car dealer website created in collaboration with the advertisement agency PINK. This page is connected to the car dealer mobile.de, makes them searchable right on the page and also offers the feature to manage cars in the backend.
 
 I did the complete Frontend/Backend work here using Vue.js and a Laravel API, the content management is entrusted to good old Wordpress.
+
+I relaunched this site in 2021.
