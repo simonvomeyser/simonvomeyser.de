@@ -3,9 +3,9 @@ key: cheetah
 link: https://cheetah-eventlocation.de/
 year: 2021
 month: 8
-name: Voss Telekom LR
+name: Cheetah Events
 excerpt:
-logo: listicon-voss.png
+logo: listicon-cheetah.png
 technologies: ['svelte', 'laravel', 'javascript']
 clients: []
 ---

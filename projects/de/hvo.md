@@ -15,5 +15,3 @@ Konzeption und Implementierung einer Web-App für die Koordination von Terminbuc
 Besonders die Analyse, Optimierung und technische Abbildung der Kundenprozesse war eine spannende Aufgabe. 
 
 Technisch ein Livewire/Alpine.js/Tailwind Frontend mit einem Laravel (Nova) Backend. Fokus war hier besonders Performance, da die API-Integration bereits bestimmte Latenzen mit sich brachte.
-
-Das Design wurde von den Profis bei <a href="https://agentur.pink" target="_blank" rel="noopener noreferrer">Agentur Pink</a> umgesetzt.
