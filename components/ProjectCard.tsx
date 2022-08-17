@@ -33,7 +33,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
 
 
   return (
-    <div className={clsx(' shadow project-card-animation', className)} style={style} id={slugify(project.name)}>
+    <div className={clsx('shadow', className)} style={style} id={slugify(project.name)}>
       <div className='bg-neutral-100 pt-[50%] relative'>
         <div className='absolute inset-0 w-full h-full'>
           <FadeInImage
