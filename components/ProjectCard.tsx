@@ -34,14 +34,15 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
 
   return (
     <div className={clsx(' shadow project-card-animation', className)} style={style} id={slugify(project.name)}>
-      <div className='bg-neutral-100 pt-[56.6666%] relative'>
+      <div className='bg-neutral-100 pt-[50%] relative'>
         <div className='absolute inset-0 w-full h-full'>
           <FadeInImage
             src={`/img/projects/${project.logo}`}
             alt={project.name}
-            width={456}
-            height={258}
+            width={603}
+            height={304}
             objectFit='cover'
+            layout="responsive"
           />
           <video muted loop ref={video}
                  preload='none'
