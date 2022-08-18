@@ -1,4 +1,7 @@
+import { promises as fs } from 'fs'
+import matter from 'gray-matter'
 import type { GetStaticPropsContext, NextPage } from 'next'
+import path from 'path'
 import { useState } from 'react'
 import { PageHeading } from '../components/PageHeading'
 import { ProjectCard } from '../components/ProjectCard'
@@ -6,7 +9,7 @@ import { ProjectType } from '../d'
 import { useProjects } from '../hooks/useProjects'
 import { useTranslation } from '../hooks/useTranslation'
 import SearchSvg from '../svg/search.svg'
-import { getProjectsFromFilesystem } from './misc/getProjectsFromFilesystem'
+
 
 const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
   const { __, ___ } = useTranslation()
@@ -74,9 +77,32 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
   )
 }
 
+
+
 export async function getStaticProps(context: GetStaticPropsContext) {
 
-  return await getProjectsFromFilesystem(context)
+  const postsDirectory = path.join(process.cwd(), '/projects/' + context.locale)
+  const filenames = await fs.readdir(postsDirectory)
+
+  const projects = filenames.map(async (filename) => {
+    const filePath = path.join(postsDirectory, filename)
+    const fileContents = await fs.readFile(filePath, 'utf8')
+
+    const matterResult = matter(fileContents)
+
+    return {
+      dateFull: matterResult.data.year + '-' + matterResult.data.month,
+      ...matterResult.data,
+      html: matterResult.content.trim(),
+    }
+  })
+
+
+  return {
+    props: {
+      projects: await Promise.all(projects),
+    },
+  }
 
 }
 
