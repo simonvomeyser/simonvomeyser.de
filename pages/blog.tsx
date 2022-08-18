@@ -66,7 +66,7 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
                    dangerouslySetInnerHTML={{ __html: post.excerpt.trim() }}
               />
               <div className='flex justify-end mt-auto'>
-                <a href={post.link} className='hover:text-neutral-700 transition text-neutral-400'>
+                <a href={post.link} target="_blank" rel="noopener noreferrer" className='hover:text-neutral-700 transition text-neutral-400'>
                   <ArrowRightSvg className='w-8 h-auto ' />
                 </a>
               </div>
