@@ -21,7 +21,7 @@
 .rich-text strong {
   background: var(--teal-100);
   color: var(--teal-400);
-  padding: 2px 4px;
+  padding: 1px 4px;
 }
 
 .rich-text a {
@@ -33,24 +33,15 @@
 
 .rich-text a:after {
   transition: 0.3s width ease-in-out;
-  background: var(--neutral-400);
+  background: var(--neutral-300);
   display: block;
   content: ' ';
   position: absolute;
-  bottom: 1px;
+  bottom: 2px;
   left: 50%;
   height: 1px;
   width: calc(100% + 5px);
   transform: translateX(-50%);
-}
-@media (min-width: 600px) {
-.rich-text a:after {
-  background: var(--teal-300);
-  height: 3px;
-  bottom: 0;
-
-}
-
 }
 
 
@@ -59,5 +50,6 @@
 }
 
 .rich-text a:hover:after {
+  background: var(--teal-500);
   width: calc(100%);
 }
