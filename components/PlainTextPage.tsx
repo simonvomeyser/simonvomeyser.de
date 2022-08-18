@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import { PageHeading } from './PageHeading'
+import { Seo } from './Seo'
 
 
 export type PlainTextPageProps = {
@@ -15,8 +16,8 @@ export const PlainTextPage: React.FC<PlainTextPageProps> = ({
 
   return (
     <>
+      <Seo pageTitle={heading} />
       <Head>
-        <title>{heading}</title>
         <meta name='robots' content='noindex' />
       </Head>
       <PageHeading>

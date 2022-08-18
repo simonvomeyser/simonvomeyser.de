@@ -3,6 +3,7 @@ import React from 'react'
 import { Container } from '../components/Container'
 import { FadeInImage } from '../components/FadeInImage'
 import { PageHeading } from '../components/PageHeading'
+import { Seo } from '../components/Seo'
 import { useTranslation } from '../hooks/useTranslation'
 import ArrowRightSvg from '../svg/arrow-right.svg'
 
@@ -19,6 +20,11 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
 
   return (
     <>
+      <Seo
+        pageTitle={__('navigationBlog')}
+        description={__('metaDescriptionBlog')}
+      />
+
       <PageHeading>
         <h1>{__('navigationBlog')}</h1>
       </PageHeading>
@@ -61,7 +67,7 @@ const Index: NextPage<{ posts: BlogPostType[] }> = ({ posts }) => {
               />
               <div className='flex justify-end mt-auto'>
                 <a href={post.link} className='hover:text-neutral-700 transition text-neutral-400'>
-                <ArrowRightSvg className='w-8 h-auto ' />
+                  <ArrowRightSvg className='w-8 h-auto ' />
                 </a>
               </div>
             </div>

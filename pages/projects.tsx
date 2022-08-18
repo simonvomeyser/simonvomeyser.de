@@ -5,6 +5,7 @@ import path from 'path'
 import { useState } from 'react'
 import { PageHeading } from '../components/PageHeading'
 import { ProjectCard } from '../components/ProjectCard'
+import { Seo } from '../components/Seo'
 import { ProjectType } from '../d'
 import { useProjects } from '../hooks/useProjects'
 import { useTranslation } from '../hooks/useTranslation'
@@ -34,6 +35,10 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
 
   return (
     <>
+      <Seo
+        pageTitle={__('navigationProjects')}
+        description={__('metaDescriptionProject')}
+      />
       <PageHeading>
         <h1>{__('navigationProjects')}</h1>
       </PageHeading>

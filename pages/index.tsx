@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Image from 'next/image'
 import { Container } from '../components/Container'
 import { PageHeading } from '../components/PageHeading'
+import { Seo } from '../components/Seo'
 import { useTranslation } from '../hooks/useTranslation'
 import AboutMeImageMobile from '../img/about-me-1-mobile.jpg'
 import AboutMeImage from '../img/about-me-1.jpg'
@@ -12,6 +13,7 @@ const Index: NextPage = () => {
 
   return (
     <>
+      <Seo/>
       <div className='flex sm:pt-8 relative'>
         <AboutMeBackground className='  absolute w-32 sm:w-72  -top-7 sm:top-0 left-0 h-auto text-teal-100' />
         <div className='flex-1 sm:px-9 relative flex flex-col justify-center'>

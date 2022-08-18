@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { ContactForm } from '../components/ContactForm'
 import { ContactFormAlertBox } from '../components/ContactFormAlertBox'
 import { PageHeading } from '../components/PageHeading'
+import { Seo } from '../components/Seo'
 import { useTranslation } from '../hooks/useTranslation'
 
 
@@ -12,6 +13,10 @@ const Index: NextPage = () => {
 
   return (
     <>
+      <Seo
+        pageTitle={__('navigationContact')}
+        description={__('metaDescriptionContact')}
+      />
       <PageHeading>
         <h1>{__('navigationContact')}</h1>
       </PageHeading>
