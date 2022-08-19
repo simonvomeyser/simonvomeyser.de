@@ -137,7 +137,7 @@ module.exports = {
      I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
     </p>
     <p>
-      I finished my Master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.3 (about a 	3,7 GPA). I also taught students there... or at least I tried to be the least confused person in the room.
+      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.3 (about a 	3,7 GPA). I also taught students there... or at least I tried to be the least confused person in the room.
     </p>
     <p>
       I started working for the company <a href='https://dekra-media.de/' target='_blank'>DEKRA Media Gmbh</a> as a Web-developer while a was still studying and joined after my master’s degree as a <strong>Project Manger</strong> and <strong>Teamleader</strong> of the eight-person web team. <br>
@@ -145,7 +145,7 @@ module.exports = {
     </p>
     <p>
       Since 2021 I decided to become a <strong>full-time freelancer</strong>. Since then I worked for a lot of projects with different clients, teams and agencies. 
-      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government, and the big relaunch of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
+      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government, and relaunching the website of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
     </p>
   `,
   aboutMeReadMoreHeading2: '<h2>What I offer - and what not</h2>',
@@ -154,28 +154,23 @@ module.exports = {
       I offer consulting, project management and web development. I am comfortable working as part of a bigger team and in a team lead position.
     </p>
     <p>
-      I am specialized in Javascript Frontend Frameworks (Vue.js, React.js) and the PHP Framework Laravel. I can't (and quite frankly shouldn't) offer any services outside my expertise, even if I am familiar with a few more technologies like Wordpress, Drupal and others. 
+      I work as a freelancer and am not looking for a full time job. Working together on a project for a fixed timespan of time, and usually for 2-3 days in a week, is usually a good fit.
     </p>
     <p>
-     I like working as a contractor and as a freelancer, but I am <strong>not looking for a full-time job</strong>. Part-time might be an option.
+      Unfortunately I can't (and quite frankly shouldn't) offer any services outside my expertise, even if I am familiar with a few more technologies. I also can't offer help with design, branding or the implementation of small portfolio websites. I am well-connected though and can help you find professionals for these tasks.
+    </p>
+    <p>
+      I am your perfect partner in planning, management and the development of complex web projects. I help to launch startups or to optimize and automate your processes, make workflows more efficient and reduce costs.
     </p>
     <p>
       You can look at some examples of my work under <a href='/projects'>projects</a> or say hello to me under <a href='/contact'>contact</a>.
     </p>
     <p>
-     hope to hear from you soon! :) <br>
+     always happy to hear from you! :) <br>
      Simon
       
     </p>
 
-  `,
-  aboutMeReadMoreText3: `
-      You can find examples of finished products on my {projectLink} page. You want to ask me something or find out more about what I offer? Awesome! Jump right to the {contactLink} page! 
-  `,
-  aboutMeReadMoreText4: `
-      <p>
-      See you there :) <br/> Simon
-      </p>
   `,
   projectsCopy: `
     <p>You will find a few of over 50 projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>

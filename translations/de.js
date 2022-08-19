@@ -107,7 +107,7 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeFirstText: `
     Etwas genauer genommen plane und realisiere ich mit dir Webprojekte als Projektmanager und Entwickler.
     <br><br>
-    Technisch spezialisiert habe ich mich auf Javascript Frameworks (Vue/React) und Laravel<br> <br>
+    Technisch spezialisiert habe ich mich auf Laravel und Javascript (Vue.js und React) <br> <br>
     Als Projektmanager verwende ich gerne agile Methoden (Scrum, Kanban) und eine Menge Kaffee ☕️<br>
   `,
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
@@ -119,7 +119,7 @@ E-Mail: info@simonvomeyser.de</p>
       Begonnen das ganze Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
     </p>
     <p>
-      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit der Abschlussnote 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein, als die Studenten.
+      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit dem Schnitt 1,3 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein, als die Studenten.
     </p>
     <p>
       Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 zu einer Test-Driven Laravel/Vue App mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
@@ -133,23 +133,24 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
   aboutMeReadMoreText2: `
     <p>
-      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und auch gerne mit Teamverantwortung.
-      </p><p> 
-      Als Entwickler habe ich mich auf das PHP Framework Laravel und Javascript Frameworks (Vue/React) spezialisiert. Ich konnte auch Erfahrungen mit Wordpress, Drupal und anderen Frameworks sammeln, aber kann (und sollte) in diesem Bereich außerhalb meiner Spezialisierung keine Betreuung oder Weiterentwicklung von Projekten anbieten <br>
+      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und mit Projekt- und Personalverantwortung. 
     </p>
     <p>
-    Ich arbeite am liebsten Projektbezogen und suche nicht nach einer Festanstellung. Eine Zusammenarbeit für meherere, feste Tag in der Woche während eines begrenzten Zeitraums ist aber häufig eine gute Idee. 
+      Ich arbeite projektbezogen und suche nicht nach einer Festanstellung. Eine Zusammenarbeit für feste Tage in der Woche während eines begrenzten Zeitraums ist meist eine gute Idee. 
+    </p>
+    <p> 
+        Außerhalb meiner Spezialisierung kann (und sollte) ich keine Projekte annehmen.
+        In Sachen Design, Branding und Umsetzung kleinerer Hobbywebseiten bin ich ebenfalls nicht der Richtige, allerdings bin ich gut mit Profis in diesem Gebiet vernetzt und stelle gerne Kontakt her.
     </p>
     <p>
-      Beispiele für Projekte kannst du dir unter <a href='/projects'>hier</a> anschauen, kontaktieren kannst du mich unter <a href='/contact'>Kontakt</a>.
+      Ich bin dein perfekter Partner bei der Planung, dem Management und der Umsetzung von anspruchsvollen, technischen Lösungen die deine Prozesse optimieren und automatisieren. Auch wenn du ein komplexes Projekt wie ein Web-Startup umsetzten möchtest, bin ich der Richtige für den Job!.
+    </p>
+    <p>
+      Beispiele für Arbeiten kannst du dir unter <a href='/projects'>Projekte</a> anschauen, kontaktiere mich auch gern unter <a href='/contact'>Kontakt</a>.
     </p>
     <p>
     Bis bald! :) <br/> Simon
     </p>
-  `,
-  aboutMeReadMoreText3: `
-  `,
-  aboutMeReadMoreText4: `
   `,
   projectsCopy: `
     <p>Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
