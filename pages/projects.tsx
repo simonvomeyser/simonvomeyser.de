@@ -46,7 +46,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
         {___('projectsCopy')}
       </div>
 
-      <div className='max-w-screen-sm mx-auto mb-10 md:px-8 relative'>
+      <div className='max-w-screen-xs mx-auto mb-10 md:px-8 relative'>
 
 
         <div className="relative">
