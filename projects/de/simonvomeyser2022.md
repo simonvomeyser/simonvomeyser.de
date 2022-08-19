@@ -2,8 +2,8 @@
 key: simonvomeyser2022
 link: https://www.google.com/search?q=recursion
 year: 2022
-month: 8
-name: Relaunch of this website 2022
+month: 5
+name: Simon vom Eyser 2022
 excerpt:
 logo: listicon-simonvomeyser2022.png
 technologies: ['react', 'next', 'javascript', 'typescript']

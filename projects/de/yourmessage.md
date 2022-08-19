@@ -2,7 +2,7 @@
 key: yourmessage
 link: https://yourmessage.eu
 year: 2022
-month: 05
+month: 07
 name: Your Message
 excerpt:
 logo: listicon-yourmessage.png

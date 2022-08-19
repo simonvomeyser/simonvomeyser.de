@@ -2,7 +2,7 @@
 key: shearer
 link: https://shearer.studio/
 year: 2022
-month: 7
+month: 6
 name: SHEARER Creative Studio
 excerpt:
 logo: listicon-shearer.png

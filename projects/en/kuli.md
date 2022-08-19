@@ -14,4 +14,5 @@ The "Kulinarische Schnitzeljagd" organizes regular "tours" to various venues, mo
 
 Together with Dajo Eberlei, a complex analysis and full automation of work processes took place in a timespan of over three years. The implemented solutions now reduces the administrative work of the organizers to a minimum.
 
-Customer communication, competitions, automatic e-mails, a Shopify integration and statistics for almost 10000 users were implemented with Laravel, a Laravel Nova backend and Vue.js in the frontend.
+Accounts for users and companies, competitions, a Shopify integration and statistics for almost 10000 users were implemented with Laravel, a Laravel Nova backend and Vue.js in the frontend. Thoroughly tested with a CI/CD pipeline and a combination of unit, feature and browser tests. 
+

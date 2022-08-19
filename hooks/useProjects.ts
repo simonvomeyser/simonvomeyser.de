@@ -1,6 +1,6 @@
 import { ProjectType } from '../d'
 
-export const yearForCurrentProjects = 2019
+export const yearForCurrentProjects = 2020
 
 export const useProjects = (projects: ProjectType[]) => {
   const sortedProjects = projects.sort((a, b) => {

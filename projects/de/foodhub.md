@@ -3,7 +3,7 @@ key: foodhub
 link: https://foodhub-nrw.de/
 year: 2022
 month: 3
-name: Kulinarische Schnitzeljagd
+name: Foodhub NRW
 excerpt:
 logo: listicon-foodhub.png
 technologies: ['vue', 'laravel', 'nova', 'javascript', 'php']
