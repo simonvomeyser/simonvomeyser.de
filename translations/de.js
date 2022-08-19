@@ -159,8 +159,11 @@ E-Mail: info@simonvomeyser.de</p>
   projectsShowOldProjects: 'Ältere Projekte zeigen',
   projectsNoResults: 'Keine Projekte gefunden',
   projectsNoResultsClear: 'Suche zurücksetzen',
-  projectsSearchPlaceholder: 'Suche nach Vue.js, Laravel, React, ...',
-
+  projectsSearchPlaceholder: [
+    'Suche React, Laravel, ...',
+    'Suche Vue.js, React, ...',
+    'Suche Laravel, Typescript, ...'
+  ],
   contactFormCopy: `
   <p>
     Das obligatorische Kontaktformular auf einer Webseite darf natürlich nicht fehlen. Aber seien wir ehrlich: Es macht auch

@@ -180,7 +180,12 @@ module.exports = {
   projectsShowOldProjects: 'Show old(er) projects',
   projectsNoResults: 'No projects found results found',
   projectsNoResultsClear: 'Clear search',
-  projectsSearchPlaceholder: 'Search for Vue.js, Laravel, React, ...',
+  projectsSearchPlaceholder: [
+    'Search React, Laravel, ...',
+    'Search Vue.js, React, ...',
+    'Search Laravel, Typescript, ...',
+    'Search Vue.js, Laravel, ...',
+  ],
   contactFormCopy: `
     <p>
       Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>.
