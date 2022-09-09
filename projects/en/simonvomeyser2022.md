@@ -13,3 +13,5 @@ clients: []
 Relaunch of my own website, the Gatsby version from 2020 was a bit outdated and difficult to maintain.
 
 The version you're looking at right now is developed using the really awesome Next.js framework on a node server. The website is completely implemented with Typescript and also deserved some smaller features like an inline video player for projects, a search and a small info page for my blog.
+
+I open sourced the code [at GitHub](https://github.com/simonvomeyser/simonvomeyser.de) to showcase the way I work. 

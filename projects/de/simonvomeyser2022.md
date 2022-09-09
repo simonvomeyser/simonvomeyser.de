@@ -13,3 +13,5 @@ clients: []
 Neuentwicklung meiner eigenen Webseite deren Gatsby Version von 2020 etwas in die Jahre gekommen und schwer zu pflegen war. 
 
 Die Version, die du dir gerade anschaust, ist mit dem wirklich großartigen Framework Next.js auf einem eigenen Node-Server gehosted. Die Webseite ist komplett mit Typescript implementiert und hat auch kleinere Features bekommen wie einen Inline-Videoplayer für Projekte, eine Suche und eine kleine Infoseite für meinen Blog.
+
+Ich habe den Code bei [GitHub zur Verfügung gestellt](https://github.com/simonvomeyser/simonvomeyser.de), um zu zeigen, wie ich so arbeite :)
