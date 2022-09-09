@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Container } from '../components/Container'
 import { PageHeading } from '../components/PageHeading'
 import { Seo } from '../components/Seo'
+import { SocialLinks } from '../components/SocialLinks'
 import { useTranslation } from '../hooks/useTranslation'
 import AboutMeImageMobile from '../img/about-me-1-mobile.jpg'
 import AboutMeImage from '../img/about-me-1.jpg'
@@ -56,6 +57,7 @@ const Index: NextPage = () => {
           {___('aboutMeReadMoreText2')}
         </div>
       </Container>
+      <SocialLinks/>
     </>
   )
 }

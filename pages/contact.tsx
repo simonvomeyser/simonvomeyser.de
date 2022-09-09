@@ -4,6 +4,7 @@ import { ContactForm } from '../components/ContactForm'
 import { ContactFormAlertBox } from '../components/ContactFormAlertBox'
 import { PageHeading } from '../components/PageHeading'
 import { Seo } from '../components/Seo'
+import { SocialLinks } from '../components/SocialLinks'
 import { useTranslation } from '../hooks/useTranslation'
 
 
@@ -23,7 +24,7 @@ const Index: NextPage = () => {
       <div className='rich-text max-w-screen-sm mx-auto mb-8'>
         {___('contactFormCopy')}
       </div>
-      <div className='max-w-screen-xs mx-auto'>
+      <div className='max-w-screen-xs mx-auto mb-10'>
 
         {submitStatus ? (
 
@@ -36,6 +37,8 @@ const Index: NextPage = () => {
         )}
 
       </div>
+
+      <SocialLinks/>
 
     </>
   )
