@@ -2,7 +2,7 @@ module.exports = {
   title: 'Simon vom Eyser',
   defaultMetaTitle: 'Simon vom Eyser - web development with JavaScript and PHP',
   defaultMetaDescription:
-    'Freelancing fullstack web-developer and project manager from NRW, Germany. Specialized on Laravel, React, Vue.js and too much coffee.',
+    'Freelancing fullstack web-developer and project manager from NRW, Germany. Specialized in Laravel, React, Vue.js and too much coffee.',
   metaKeywords:
     'web, development, freelancer, NRW, Germany, Krefeld, Laravel, React, Vue, projectmanagement, consulting, training',
   metaDescriptionProject: 'Here you can see some of the more than 50 projects I\'ve been involved in.',
