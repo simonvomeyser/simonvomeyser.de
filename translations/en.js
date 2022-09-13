@@ -154,7 +154,7 @@ module.exports = {
       I offer consulting, project management and web development. I am comfortable working as part of a bigger team and in a team lead position.
     </p>
     <p>
-      I work as a freelancer and am not looking for a full time job. Working together on a project for a fixed timespan of time, and usually for 2-3 days in a week, is usually a good fit.
+      I work as a freelancer and am not looking for a full time job. Working together on a project for a certain timespan, and usually for 2-3 days in a week, is usually a good fit.
     </p>
     <p>
       Unfortunately I can't (and quite frankly shouldn't) offer any services outside my expertise, even if I am familiar with a few more technologies. I also can't offer help with design, branding or the implementation of small portfolio websites. I am well-connected though and can help you find professionals for these tasks.
