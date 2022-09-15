@@ -32,6 +32,7 @@ export const Layout: React.FC<LayoutProps> = ({
         <link rel='icon' type='image/png' sizes='32x32' href='/favicon/favicon-32x32.png' />
         <link rel='icon' type='image/png' sizes='16x16' href='/favicon/favicon-16x16.png' />
         <link rel='manifest' href='/favicon/site.webmanifest' />
+        <meta name="loadforge-site-verification" content="4dc1b9b0672f8c258465bec6be12d18adbf200714ad2897b898253e3d704731fd2ee8aa952a115801f2fde457291fc28b272309537d6b20b82bbb45391cbadfc" />
       </Head>
 
       <Navigation />
