@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['res.cloudinary.com']
   },
   i18n: {
     locales: ['en', 'de'],
@@ -36,6 +36,16 @@ const nextConfig = {
         source: '/datenschutzerklaerung',
         destination: '/privacy-policy',
         permanent: false
+      },
+      {
+        source: '/projekte',
+        destination: '/projects',
+        permanent: false
+      },
+      {
+        source: '/kontakt',
+        destination: '/contact',
+        permanent: false
       }
     ]
   },
@@ -52,7 +62,7 @@ const nextConfig = {
                 {
                   name: 'convertColors',
                   options: {
-                    currentColor: true,
+                    currentColor: true
                   }
                 }
               ]
@@ -63,7 +73,7 @@ const nextConfig = {
     })
 
     return config
-  },
+  }
 }
 
 module.exports = nextConfig
