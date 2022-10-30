@@ -16,4 +16,4 @@ Umgesetzt mit React und Gatsby als statisch gerenderte Seite, mit ausgefallenem 
 
 Das tolle CD stammt von Katharina Link, das Screendesign wurde zusammen mit Felix Rostig und Damian Brzostewicz erarbeitet.
 
-Ich durfte den Code öffentlich bei [GitHub zur Verfügung stellen](https://github.com/simonvomeyser/shearer-creative-studio), um zu zeigen, wie ich so arbeite :)
+Ich durfte den Code öffentlich bei <a href="https://github.com/simonvomeyser/shearer-creative-studio" target="_blank" rel="noopener noreferrer">GitHub zur Verfügung stellen</a>, um zu zeigen, wie ich so arbeite :)

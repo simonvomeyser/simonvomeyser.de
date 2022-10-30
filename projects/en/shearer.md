@@ -16,4 +16,4 @@ Implemented with React and Gatsby as a statically rendered page, with an creativ
 
 The great CD comes from Katharina Link, the screen design was developed together with Felix Rostig and Damian Brzostewicz.
 
-I was allowed to open source the code [at GitHub](https://github.com/simonvomeyser/shearer-creative-studio) to showcase the way I work. 
+I was allowed to open source the code <a href="https://github.com/simonvomeyser/shearer-creative-studio" target="_blank" rel="noopener noreferrer">at GitHub</a> to showcase the way I work, feel free to look into it :)
