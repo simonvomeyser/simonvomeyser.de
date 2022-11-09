@@ -131,13 +131,13 @@ module.exports = {
   aboutMeReadMoreHeading1: '<h2>A little story about me! </h2>',
   aboutMeReadMoreText1: `
     <p>
-      I've been working in web development since <strong>12 years</strong> and I love what I do. 
+      I've been working as web developer for over <strong>10 years</strong> – and I love what I do. 
     </p>
     <p>
-     I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
+     My journey began by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
     </p>
     <p>
-      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.4 (about a 	3.6 GPA, A-). I also taught students there... or at least I tried to be the least confused person in the room.
+      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.4 (about a 	3.6 GPA, A-). I also taught students there as a tutor... trying to be the least confused person in the room.
     </p>
     <p>
       I started working for the company <a href='https://dekra-media.de/' target='_blank'>DEKRA Media Gmbh</a> as a Web-developer while a was still studying and joined after my master’s degree as a <strong>Project Manger</strong> and <strong>Teamleader</strong> of the eight-person web team. <br>

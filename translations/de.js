@@ -113,7 +113,7 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Ich arbeite seit <strong>12 Jahren</strong> als Webentwickler und liebe meinen Beruf.  
+      Ich arbeite seit über <strong>10 Jahren</strong> als Webentwickler und liebe meinen Beruf.  
     </p>
     <p>
       Begonnen hat das ganze Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
