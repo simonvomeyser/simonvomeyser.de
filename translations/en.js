@@ -137,7 +137,7 @@ module.exports = {
      I started this journey by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
     </p>
     <p>
-      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.3 (about a 	3,7 GPA). I also taught students there... or at least I tried to be the least confused person in the room.
+      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.4 (about a 	3.6 GPA, A-). I also taught students there... or at least I tried to be the least confused person in the room.
     </p>
     <p>
       I started working for the company <a href='https://dekra-media.de/' target='_blank'>DEKRA Media Gmbh</a> as a Web-developer while a was still studying and joined after my master’s degree as a <strong>Project Manger</strong> and <strong>Teamleader</strong> of the eight-person web team. <br>
