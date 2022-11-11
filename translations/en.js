@@ -173,8 +173,8 @@ module.exports = {
 
   `,
   projectsCopy: `
-    <p>You will find a few of over 50 projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
-    <p>Most Projects are way more interesting than the space here allows for. 
+    <p>You will find a few of projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
+    <p>Most projects are way more interesting than the space here allows for. 
     Requirements engineering and communication is crucial for a successful product - even before the first line of code is ever written.</p>
   `,
   projectsShowOldProjects: 'Show old(er) projects',
