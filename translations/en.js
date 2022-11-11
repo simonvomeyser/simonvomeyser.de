@@ -178,7 +178,7 @@ module.exports = {
     Requirements engineering and communication is crucial for a successful product - even before the first line of code is ever written.</p>
   `,
   projectsShowOldProjects: 'Show old(er) projects',
-  projectsNoResults: 'No projects found results found',
+  projectsNoResults: 'No projects found for this search...',
   projectsNoResultsClear: 'Clear search',
   projectsSearchPlaceholder: [
     'Search React, Laravel, ...',
