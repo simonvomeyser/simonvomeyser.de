@@ -1,6 +1,8 @@
+import clsx from 'clsx'
 import { promises as fs } from 'fs'
 import matter from 'gray-matter'
-import type { GetStaticPropsContext, NextPage } from 'next'
+import type { GetServerSidePropsContext, NextPage } from 'next'
+import { useQueryState } from 'next-usequerystate'
 import path from 'path'
 import { useState } from 'react'
 import { PageHeading } from '../components/PageHeading'
@@ -12,16 +14,16 @@ import { useTranslation } from '../hooks/useTranslation'
 import SearchSvg from '../svg/search.svg'
 
 
-const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
+const Index: NextPage<{ projects: ProjectType[], query: string }> = ({ projects , query}) => {
   const { __, ___ } = useTranslation()
 
   const { currentProjects, oldProjects, allProjects } = useProjects(projects)
   const [showOldProjects, setShowOldProjects] = useState(false)
-  const [searchQuery, setSearchQuery] = useState('')
+  const [searchQuery, setSearchQuery] = useQueryState('q', { defaultValue: query })
 
   let projectsToShow = showOldProjects ? allProjects : currentProjects
 
-  if (searchQuery.length > 0) {
+  if (searchQuery && searchQuery.length > 0) {
 
     projectsToShow = allProjects.filter(project => {
       return (
@@ -53,8 +55,11 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
 
         <SearchSvg className='absolute top-1/2  transform  -translate-y-1/2 left-3 w-5 h-5 text-neutral-200' />
 
-        <input value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-               className='w-full border border-neutral-250 rounded-sm px-4 py-3 bg-neutral-50 text-lg block pl-11'
+        <input type="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
+               className={clsx('w-full border-2 rounded-sm px-4 py-3 bg-neutral-50 text-lg block pl-11 transition duration-500 ', {
+                  'border-neutral-200': !searchQuery.length,
+                  'border-primary': searchQuery.length > 0,
+               })}
                placeholder={__('projectsSearchPlaceholder')}
         />
         </div>
@@ -84,7 +89,7 @@ const Index: NextPage<{ projects: ProjectType[] }> = ({ projects }) => {
 
 
 
-export async function getStaticProps(context: GetStaticPropsContext) {
+export async function getServerSideProps(context: GetServerSidePropsContext) {
 
   const postsDirectory = path.join(process.cwd(), '/projects/' + context.locale)
   const filenames = await fs.readdir(postsDirectory)
@@ -106,6 +111,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   return {
     props: {
       projects: await Promise.all(projects),
+      query: context.query.q || '',
     },
   }
 
