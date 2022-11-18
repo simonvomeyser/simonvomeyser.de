@@ -55,7 +55,7 @@ const Index: NextPage<{ projects: ProjectType[], query: string }> = ({ projects 
 
         <SearchSvg className='absolute top-1/2  transform  -translate-y-1/2 left-3 w-5 h-5 text-neutral-200' />
 
-        <input type="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
+        <input type="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value, {scroll: false, shallow: true})}
                className={clsx('w-full border-2 rounded-sm px-4 py-3 bg-neutral-50 text-lg block pl-11 transition duration-500 ', {
                   'border-neutral-200': !searchQuery.length,
                   'border-primary': searchQuery.length > 0,
@@ -72,7 +72,7 @@ const Index: NextPage<{ projects: ProjectType[], query: string }> = ({ projects 
       {searchQuery && projectsToShow.length === 0 && (
         <div className='text-center text-neutral-300 py-8'>
           {___('projectsNoResults')} <br />
-          <button className='underline' onClick={() => setSearchQuery('')}>{__('projectsNoResultsClear')}</button>
+          <button className='underline' onClick={() => setSearchQuery('', {scroll: false, shallow: true})}>{__('projectsNoResultsClear')}</button>
         </div>
       )}
       {!showOldProjects && !searchQuery && (
