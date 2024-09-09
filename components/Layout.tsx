@@ -54,9 +54,9 @@ export const Layout: React.FC<LayoutProps> = ({
             </div>
             <div className='sm:hidden'>
               <Link href='/'>
-                <a>
-                  <LogoSvg className='w-7 h-auto' />
-                </a>
+
+                <LogoSvg className='w-7 h-auto' />
+
               </Link>
             </div>
 
@@ -89,5 +89,5 @@ export const Layout: React.FC<LayoutProps> = ({
         </div>
       </main>
     </div>
-  )
+  );
 }

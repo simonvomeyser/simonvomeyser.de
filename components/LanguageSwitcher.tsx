@@ -19,17 +19,24 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({className}) =
   return (
     <div className={className}>
       <div className='space-x-3 underline flex'>
-        <Link href={router.pathname} locale='en'>
-          <a className={isActiveLocale('en') ? '' : 'opacity-30'} aria-label=''>
-            <UnitedStates className='w-7 h-auto' />
-          </a>
+        <Link
+          href={router.pathname}
+          locale='en'
+          className={isActiveLocale('en') ? '' : 'opacity-30'}
+          aria-label=''>
+
+          <UnitedStates className='w-7 h-auto' />
+
         </Link>
-        <Link href={router.pathname} locale='de'>
-          <a className={isActiveLocale('de') ? '' : 'opacity-30'}>
-            <GermanySvg className='w-7 h-auto' />
-          </a>
+        <Link
+          href={router.pathname}
+          locale='de'
+          className={isActiveLocale('de') ? '' : 'opacity-30'}>
+
+          <GermanySvg className='w-7 h-auto' />
+
         </Link>
       </div>
     </div>
-  )
+  );
 }

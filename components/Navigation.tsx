@@ -38,10 +38,10 @@ export const Navigation: React.FC = () => {
         className={clsx('w-[var(--navigationWidthDesktop)] bg-neutral-600 px-2 py-4 flex flex-col items-center fixed h-full z-20 transition duration-500 shadow sm:shadow-0', {
           '-translate-x-full sm:translate-x-0': !isMainNavigationOpen,
         })}>
-        <Link href='/'>
-          <a className='mb-8 inline-block'>
-            <LogoNavigation className='w-10 h-auto' />
-          </a>
+        <Link href='/' className='mb-8 inline-block'>
+
+          <LogoNavigation className='w-10 h-auto' />
+
         </Link>
         <div className='flex flex-col items-center space-y-6'>
           <NavigationElement href='/' text={__('navigationAboutMe')}>
@@ -76,5 +76,5 @@ export const Navigation: React.FC = () => {
 
       </button>
     </div>
-  )
+  );
 }
