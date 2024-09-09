@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import Image, { ImageProps } from 'next/image'
+import Image, { ImageProps } from 'next/legacy/image'
 import React from 'react'
 
 export type FadeInImageProps = ImageProps;

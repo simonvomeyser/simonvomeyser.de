@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { Container } from '../components/Container'
 import { PageHeading } from '../components/PageHeading'
 import { Seo } from '../components/Seo'
