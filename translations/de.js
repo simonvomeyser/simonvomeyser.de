@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Simon vom Eyser',
+  webdevelopment: 'web development',
   defaultMetaTitle: 'Simon vom Eyser - Webentwicklung mit JavaScript and PHP',
   defaultMetaDescription:
     'Freiberuflicher Fullstack-Webentwickler und Projektmanager aus NRW. Spezialisiert auf Laravel, React, Vue.js und etwas zu viel Kaffee.',

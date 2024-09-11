@@ -50,7 +50,7 @@ export const Layout: React.FC<LayoutProps> = ({
               <BurgerSvg className='w-8 h-auto' />
             </button>
             <div className='text-right hidden sm:block'>
-              Simon vom Eyser <span className='text-neutral-400'>{__('landingTitle2')}</span>
+              Simon vom Eyser <span className='text-neutral-400'>{__('webdevelopment')}</span>
             </div>
             <div className='sm:hidden'>
               <Link href='/'>
