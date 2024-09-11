@@ -95,60 +95,53 @@ E-Mail: info@simonvomeyser.de</p>
   navigationAboutMe: 'Über mich',
   navigationProjects: 'Projekte',
   navigationContact: 'Kontakt',
-  navigationBlog: 'Blog'
-  ,
+  navigationBlog: 'Blog',
   myProfession: 'Webentwicklung',
-  niceToMeetYou: 'Cool, dass du da bist!',
+  niceToMeetYou: 'Hey, ich bin Simon!',
   aboutMeImageAlt: 'Simon lacht freundlich und sitzt mit seinem MacBook auf dem Boden. Anscheinend kann er sich keinen Schreibtisch leisten.',
-  aboutMeOpener: 'Ich bin Simon und mache <br> <i>irgendwas im Internet</i>',
+  aboutMeOpener: 'Senior Webentwickler mit Fokus auf Kommunikation, Laravel und Javascript.',
   aboutMeFirstText: `
-    Etwas genauer genommen plane und realisiere ich mit dir Webprojekte als Projektmanager und Entwickler.
+    Ich plane und entwickle Webanwendungen seit über <strong>10 Jahren</strong>, habe einen <strong>Masterabschluss</strong> in Medieniniformatik und Erfahrung als Team- und <strong>Projektleiter</strong>. 
     <br><br>
-    Technisch spezialisiert habe ich mich auf Laravel und Javascript (Vue.js und React) <br> <br>
-    Als Projektmanager verwende ich gerne agile Methoden (Scrum, Kanban) und eine Menge Kaffee ☕️<br>
+   Da ich diese Texte immer etwas unpersönlich finde, lerne mich doch gern etwas besser kennen: 
   `,
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Ich arbeite seit über <strong>10 Jahren</strong> als Webentwickler und liebe meinen Beruf.  
-    </p>
-    <p>
-      Begonnen hat das ganze Abenteuer mit MySpace Seiten für Metal Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
+      Begonnen hat mein berufliches Abenteuer mit MySpace Seiten für Metal und Emo Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
     </p>
     <p>
       Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit dem Schnitt 1,4 abgeschlossen. Ich habe dort auch als Tutor unterrichtet... oder zumindest versucht, im Tutorium weniger verwirrt zu sein, als die Studenten.
     </p>
     <p>
-      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. <br>Ein Highlight war der erfolgreiche Relaunch des umfangreichen SaaS <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> von Typo3 zu einer Test-Driven Laravel/Vue App mit vielen Herausforderungen wie getrennten Datenbanken bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
+      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. 
     </p>
     <p>
-      Anfang 2021 entschied ich mich dafür, <strong>Vollzeit-Freiberufler</strong> zu werden. 
-      Ich plane und betreue nun umfangreiche Webprojekte, auch gerne mit anderen Freiberuflern oder Agenturen in Teamarbeit. <br>
-      Highlights waren bis jetzt die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz und der Relaunch der Webseite des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
+     Unter meiner Leitung entwickelten wir die umfangreiche Unterweisungsplattform <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> als eine vollständig Test-Driven Laravel/Vue App. Wir lösten dabei in drei Jahren Entwicklungszeit viele Herausforderungen wie Multi-Tenancy, Schnittstellen und White-Labeling – und das bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
     </p>
   `,
-  aboutMeReadMoreHeading2: '<h2>Was ich biete - und was nicht</h2>',
+  'aboutMeReadMoreHeading2': '<h2>Und heutzutage?</h2>',
   aboutMeReadMoreText2: `
     <p>
-      Ich biete Projektunterstützung bei Planung und Entwicklung, gerne als Teil eines größeren Teams und mit Projekt- und Personalverantwortung. 
+      Anfang 2021 entschied ich mich für die Arbeit als <strong>Vollzeit-Freiberufler</strong>. 
+      Ich plane und entwickle nun regelmäßig umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
     </p>
     <p>
-      Ich arbeite projektbezogen und suche nicht nach einer Festanstellung. Eine Zusammenarbeit für feste Tage in der Woche während eines begrenzten Zeitraums ist meist eine gute Idee. 
-    </p>
-    <p> 
-        Außerhalb meiner Spezialisierung kann (und sollte) ich keine Projekte annehmen.
-        In Sachen Design, Branding und Umsetzung kleinerer Hobbywebseiten bin ich ebenfalls nicht der Richtige, allerdings bin ich gut mit Profis in diesem Gebiet vernetzt und stelle gerne Kontakt her.
+      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> mit <strong>Vue.js</strong> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit <strong>Next.js</strong>. 
     </p>
     <p>
-      Ich bin dein perfekter Partner bei der Planung, dem Management und der Umsetzung von anspruchsvollen, technischen Lösungen die deine Prozesse optimieren und automatisieren. Auch wenn du ein komplexes Projekt wie ein Web-Startup umsetzten möchtest, bin ich der Richtige für den Job!.
+      Ich war auch an anderen spannenden Projekten beteiligt, die ich Aufgrund von Vertraulichkeit nicht genauer nennen darf. Ein Beispiel wäre eine Automation von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong>, oder den Relaunch der Redaktionsplatfrom eines großen deutschen Verlags mit <strong>Laravel/Statamic</strong>.
     </p>
     <p>
-      Beispiele für Arbeiten kannst du dir unter <a href='/projects'>Projekte</a> anschauen, kontaktiere mich auch gern unter <a href='/contact'>Kontakt</a>.
-    </p>
+      Für mich sind Kommunikation und Anforderungsanalyse wichtiger sind als jede Technologie, allerdings arbeite ich am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>. <br>
+      Als großer Fan von <strong>agilen Methoden</strong> bin ich seit 2022 <strong>SCRUM zertifiziert</strong>. 
+    </p> 
     <p>
-    Bis bald! :) <br/> Simon
-    </p>
-  `,
+    So, jetzt bist aber du dran! Ich freue mich darauf, von dir und deinem Team zu hören und gemeinsam an spannenden Projekten zu arbeiten! Sag doch einfach mal Hallo! 👋 
+    </p> 
+     `,
+  aboutMeCta: 'Einfach mal Hallo!',
+
   projectsCopy: `
     <p>Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
     <p>Natürlich sind die Projekte meist noch wesentlich interessanter, als ich es hier beschreiben kann. Besonders die Anforderungsanalyse und die Kommunikation halte ich für wesentlich wichtiger, als jede Technologie.</p>

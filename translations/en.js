@@ -169,6 +169,7 @@ module.exports = {
     </p>
 
   `,
+  aboutMeCta: 'Hallo guten Tag! 👋',
   projectsCopy: `
     <p>You will find a few of projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
     <p>Most projects are way more interesting than the space here allows for. 
