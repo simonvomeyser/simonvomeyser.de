@@ -117,57 +117,48 @@ module.exports = {
   navigationContact: 'Contact',
   navigationBlog: 'Blog',
   myProfession: 'web development',
-  niceToMeetYou: 'Awesome to meet you!',
+  niceToMeetYou: 'Hey, I\'m Simon!',
   aboutMeImageAlt: 'Simon looks friendly and sits on the floor with his MacBook. Apparently he can\'t afford an desk.',
-  aboutMeOpener: 'I am Simon and I do development stuff on the interwebs!',
+  aboutMeOpener: 'Senior web developer focused on communication, Laravel, and JavaScript.',
   aboutMeFirstText: `
-    To be a little more precise: I am your partner in planing and developing web projects. <br><br>
-    As a fullstack developer, I am specialized in Javascript Frontend Frameworks (Vue.js, React.js) and Laravel. <br> <br>
-    As a project manager, I use agile development techniques (Scrum, Kanban) ... and a lot of coffee ☕️.
+I have been planning and developing web applications for over <strong>10 years</strong>, hold a <strong>Master's degree</strong> in Media Informatics, and have experience as a team and <strong>project lead</strong>.
+<br><br>
+Since I always find these texts a bit impersonal, feel free to get to know me a little better:
    `,
   aboutMeReadMoreHeading1: '<h2>A little story about me! </h2>',
   aboutMeReadMoreText1: `
-    <p>
-      I've been working as web developer for over <strong>10 years</strong> – and I love what I do. 
-    </p>
-    <p>
-     My journey began by creating MySpace pages for metal bands whose lyrics were as hard to understand as their haircuts. 
-    </p>
-    <p>
-      I finished my master's degree in Media Computer Science in <a href='https://hs-duesseldorf.de/'>Düsseldorf</a> early 2018 with a final grade of 1.4 (about a 	3.6 GPA, A-). I also taught students there as a tutor... trying to be the least confused person in the room.
-    </p>
-    <p>
-      I started working for the company <a href='https://dekra-media.de/' target='_blank'>DEKRA Media Gmbh</a> as a Web-developer while a was still studying and joined after my master’s degree as a <strong>Project Manger</strong> and <strong>Teamleader</strong> of the eight-person web team. <br>
-      I am especially proud of the successful relaunch of the company’s big SaaS product <a href='https://dekra-safety-web.eu/' target='_blank'>Dekra Safety Web</a> - moving from a Typo3 to a modern, test-driven multi-tenant Laravel application with about a quarter of a million end-users.
-    </p>
-    <p>
-      Since 2021 I decided to become a <strong>full-time freelancer</strong>. Since then I worked for a lot of projects with different clients, teams and agencies. 
-      Big highlights were the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the Rhineland-Palatinate state government, and relaunching the website of the famous concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
-    </p>
+<p>
+  My professional journey began with creating MySpace pages for metal and emo bands, whose lyrics were just as hard to understand as their hairstyles.
+</p>
+<p>
+  In early 2018, I completed my <strong>Master's degree in Media Informatics</strong> at the <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> with a grade of 1.4. During later semesters, I also had the opportunity to work as a tutor there.
+</p>
+<p>
+  Parallel to my studies, I started working at <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> as a web developer. After completing my master's degree, I became the <strong>team lead</strong> and main <strong>project manager</strong> of the eight-member web development team.
+</p>
+<p>
+  Under my leadership, we developed the training platform <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> as a test-driven Laravel/Vue application. Over the three years of development, we overcame many enterprise-level challenges such as multi-tenancy, integrating customer APIs, and white-labeling — serving 250 clients, partners, and around a quarter-million users.
+</p>
   `,
-  aboutMeReadMoreHeading2: '<h2>What I offer - and what not</h2>',
+  aboutMeReadMoreHeading2: '<h2>And nowadays?</h2>',
   aboutMeReadMoreText2: `
-    <p>
-      I offer consulting, project management and web development. I am comfortable working as part of a bigger team and in a team lead position.
-    </p>
-    <p>
-      I work as a freelancer and am not looking for a full time job. Working together on a project for a certain timespan, and usually for 2-3 days in a week, is usually a good fit.
-    </p>
-    <p>
-      Unfortunately I can't (and quite frankly shouldn't) offer any services outside my expertise, even if I am familiar with a few more technologies. I also can't offer help with design, branding or the implementation of small portfolio websites. I am well-connected though and can help you find professionals for these tasks.
-    </p>
-    <p>
-      I am your perfect partner in planning, management and the development of complex web projects. I help to launch startups or to optimize and automate your processes, make workflows more efficient and reduce costs.
-    </p>
-    <p>
-      You can look at some examples of my work under <a href='/projects'>projects</a> or say hello to me under <a href='/contact'>contact</a>.
-    </p>
-    <p>
-     always happy to hear from you! :) <br>
-     Simon
-      
-    </p>
-
+<p>
+  In early 2021, I decided to work as a <strong>full-time freelancer</strong>. 
+  I regularly plan and develop large web projects, often collaborating with other freelancers or agencies in team settings.
+</p>
+<p>
+  Some of my highlights include the implementation of the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> with <strong>Vue.js</strong> for the state of Rhineland-Palatinate, and the website relaunch of the concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> with <strong>Next.js</strong>.
+</p>
+<p>
+  I have also been involved in other exciting projects, which I am unfortunately unable to disclose in detail. One example is the automation of advertising media for a large German retail company with <strong>Next.js</strong>, as well as the relaunch of a publishing platform for a major publisher with <strong>Laravel/Statamic</strong>.
+</p>
+<p>
+  For me, communication and requirements analysis are more important than any technology, but technically, I prefer working with <strong>Laravel</strong>, <strong>React</strong>, and <strong>Vue.js</strong>. <br>
+  As a big fan of <strong>agile methodologies</strong>, I have been <strong>Scrum certified</strong> since 2022.
+</p>
+<p>
+  Now that you've read all this, it's your turn! I look forward to getting to know you or your team and working together on exciting projects! Feel free to send me a "Hallo, Guten Tag" (as we say in Germany)
+</p>
   `,
   aboutMeCta: 'Hallo guten Tag! 👋',
   projectsCopy: `
