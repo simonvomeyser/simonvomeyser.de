@@ -108,36 +108,36 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Begonnen hat mein berufliches Abenteuer mit MySpace Seiten für Metal und Emo Bands, deren Texte man genauso schwer verstehen konnte wie ihre Frisuren.
+      Begonnen hat mein berufliches Abenteuer mit MySpace-Seiten für Metal- und Emo-Bands, deren Texte genauso schwer zu verstehen waren wie ihre Frisuren.
     </p>
     <p>
-      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit einem Schnitt 1,4 abgeschlossen. Ich habe dort auch als Tutor unterrichtet.
+      Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit einem Schnitt 1,4 abgeschlossen. Ich durfte dort in späteren Semestern auch als Tutor arbeiten.
     </p>
     <p>
-      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler und wurde nach meinem Masterabschluss <strong> Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. 
+      Parallel zu meinem Studium begann ich die Arbeit bei der <a href='https:/dekra-media.de/'>Dekra Media GmbH</a> als Webentwickler. Nach Meinem Masterabschluss wurde ich dort <strong>Teamleiter</strong> und hauptverantwortlicher <strong>Projektleiter</strong> des achtköpfigen Webentwickler-Teams. 
     </p>
     <p>
-     Unter meiner Leitung entwickelten wir die umfangreiche Unterweisungsplattform <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> als eine vollständig Test-Driven Laravel/Vue App. Wir lösten dabei in drei Jahren Entwicklungszeit viele Herausforderungen wie Multi-Tenancy, Schnittstellen und White-Labeling – und das bei 250 Kunden, Vertriebspartnern und ca. einer viertel Millionen Nutzern.
+     Unter meiner Leitung entwickelten wir die umfangreiche Unterweisungsplattform <a href='https://dekra-safety-web.eu'>DEKRA Safety Web</a> als eine testgetriebene Laravel/Vue Anwendung. Wir meisterten in den drei Jahren Entwicklungszeit viele Herausforderungen wie Multi-Tenancy, Schnittstellen und White-Labeling – und das bei 250 Kunden, Vertriebspartnern und ca. einer Viertelmillion Nutzern.
     </p>
   `,
   'aboutMeReadMoreHeading2': '<h2>Und heutzutage?</h2>',
   aboutMeReadMoreText2: `
     <p>
       Anfang 2021 entschied ich mich für die Arbeit als <strong>Vollzeit-Freiberufler</strong>. 
-      Ich plane und entwickle nun regelmäßig umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
+      Ich plane und entwickle regelmäßig umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
     </p>
     <p>
-      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> mit <strong>Vue.js</strong> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des berühmten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit <strong>Next.js</strong>. 
+      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> mit <strong>Vue.js</strong> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit <strong>Next.js</strong>. 
     </p>
     <p>
-      Ich war auch an anderen spannenden Projekten beteiligt, die ich Aufgrund von Vertraulichkeit nicht genauer nennen darf. Ein Beispiel wäre eine Automation von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong>, oder den Relaunch der Redaktionsplatfrom eines großen deutschen Verlags mit <strong>Laravel/Statamic</strong>.
+      Ich war auch an anderen spannenden Projekten beteiligt, die ich leider nicht genauer nennen darf. Ein Beispiel ist die Automatisierung von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong> sowie der Relaunch einer Redaktionsplattform eines großen Verlags mit <strong>Laravel/Statamic</strong>.
     </p>
     <p>
-      Für mich sind Kommunikation und Anforderungsanalyse wichtiger sind als jede Technologie, allerdings arbeite ich am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>. <br>
-      Als großer Fan von <strong>agilen Methoden</strong> bin ich seit 2022 <strong>SCRUM zertifiziert</strong>. 
+      Für mich sind Kommunikation und Anforderungsanalyse wichtiger als jede Technologie, technisch arbeite ich aber am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>. <br>
+      Als großer Fan von <strong>agilen Methoden</strong> bin ich seit 2022 <strong>Scrum zertifiziert</strong>. 
     </p> 
     <p>
-    So, jetzt bist aber du dran! Ich freue mich darauf, von dir und deinem Team zu hören und gemeinsam an spannenden Projekten zu arbeiten! Sag doch einfach mal Hallo! 👋 
+    Nach so viel Text bist aber jetzt du dran! Ich freue mich darauf, dich oder dein Team kennenzulernen und gemeinsam an spannenden Projekten zu arbeiten! Sag doch einfach mal Hallo! 👋 
     </p> 
      `,
   aboutMeCta: 'Einfach mal Hallo!',
