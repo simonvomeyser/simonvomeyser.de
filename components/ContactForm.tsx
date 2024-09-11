@@ -129,7 +129,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
                         ref={buttonRef}
                         type="submit"
                         onClick={() => Object.keys(errors).length ? shortShake() : null}
-                        className='py-2.5 p-4 min-w-[200px] bg-primary text-white text-lg'>
+                        className='py-2.5 p-4 min-w-[200px] bg-primary text-white text-lg transition duration-500 hover:opacity-60'>
                   {__('send')}
                 </button>
               </div>
