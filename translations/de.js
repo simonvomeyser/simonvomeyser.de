@@ -125,7 +125,7 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreText2: `
     <p>
       Anfang 2021 entschied ich mich für die Arbeit als <strong>Vollzeit-Freiberufler</strong>. 
-      Ich plane und entwickle regelmäßig umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
+      Ich plane und entwickle umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
     </p>
     <p>
       Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> mit <strong>Vue.js</strong> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit <strong>Next.js</strong>. 

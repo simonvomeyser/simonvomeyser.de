@@ -145,7 +145,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   aboutMeReadMoreText2: `
 <p>
   In early 2021, I decided to work as a <strong>full-time freelancer</strong>. 
-  I regularly plan and develop large web projects, often collaborating with other freelancers or agencies in team settings.
+  I plan and develop large web projects, often collaborating with other freelancers or agencies in team settings.
 </p>
 <p>
   Some of my highlights include the implementation of the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> with <strong>Vue.js</strong> for the state of Rhineland-Palatinate, and the website relaunch of the concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> with <strong>Next.js</strong>.
