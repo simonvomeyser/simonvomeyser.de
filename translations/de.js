@@ -109,7 +109,7 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeReadMoreHeading1: '<h2>Eine kleine Geschichte über mich</h2>',
   aboutMeReadMoreText1: `
     <p>
-      Begonnen hat mein berufliches Abenteuer mit MySpace-Seiten für Metal- und Emo-Bands, deren Texte genauso schwer zu verstehen waren wie ihre Frisuren.
+      Begonnen hat mein berufliches Abenteuer mit MySpace-Seiten für Metal-Bands, deren Texte genauso schwer zu verstehen waren wie ihre Frisuren.
     </p>
     <p>
       Anfang 2018 habe ich meinen <strong>Master in Medieninformatik</strong> an der <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> mit einem Schnitt 1,4 abgeschlossen. Ich durfte dort in späteren Semestern auch als Tutor arbeiten.
@@ -128,7 +128,7 @@ E-Mail: info@simonvomeyser.de</p>
       Ich plane und entwickle umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
     </p>
     <p>
-      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> mit <strong>Vue.js</strong> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> mit <strong>Next.js</strong>. 
+      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des renomierten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>. 
     </p>
     <p>
       Ich war auch an anderen spannenden Projekten beteiligt, die ich leider nicht genauer nennen darf. Ein Beispiel ist die Automatisierung von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong> sowie der Relaunch einer Redaktionsplattform eines großen Verlags mit <strong>Laravel/Statamic</strong>.

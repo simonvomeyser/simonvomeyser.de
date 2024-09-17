@@ -129,7 +129,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   aboutMeReadMoreHeading1: '<h2>A little story about me! </h2>',
   aboutMeReadMoreText1: `
 <p>
-  My professional journey began with creating MySpace pages for metal and emo bands, whose lyrics were just as hard to understand as their hairstyles.
+  My professional journey began with creating MySpace pages for metal bands, whose lyrics were just as hard to understand as their hairstyles.
 </p>
 <p>
   In early 2018, I completed my <strong>Master's degree in Media Informatics</strong> at the <a href='https://hs-duesseldorf.de/'>Hochschule Düsseldorf</a> with a grade of 1.4. During later semesters, I also had the opportunity to work as a tutor there.
@@ -148,7 +148,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   I plan and develop large web projects, often collaborating with other freelancers or agencies in team settings.
 </p>
 <p>
-  Some of my highlights include the implementation of the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> with <strong>Vue.js</strong> for the state of Rhineland-Palatinate, and the website relaunch of the concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a> with <strong>Next.js</strong>.
+  Some of my highlights include the implementation of the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the state of Rhineland-Palatinate, and the website relaunch of the esteemed concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
 </p>
 <p>
   I have also been involved in other exciting projects, which I am unfortunately unable to disclose in detail. One example is the automation of advertising media for a large German retail company with <strong>Next.js</strong>, as well as the relaunch of a publishing platform for a major publisher with <strong>Laravel/Statamic</strong>.
