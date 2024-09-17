@@ -12,6 +12,7 @@ import { ProjectType } from '../d'
 import { useProjects } from '../hooks/useProjects'
 import { useTranslation } from '../hooks/useTranslation'
 import SearchSvg from '../svg/search.svg'
+import { parseMarkdownLinksToHtml } from '../util/parseMarkdownLinks'
 
 
 const Index: NextPage<{ projects: ProjectType[], query: string }> = ({ projects , query}) => {
@@ -100,10 +101,11 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
 
     const matterResult = matter(fileContents)
 
+
     return {
       dateFull: matterResult.data.year + '-' + matterResult.data.month,
       ...matterResult.data,
-      html: matterResult.content.trim(),
+      html: parseMarkdownLinksToHtml(matterResult.content.trim()),
     }
   })
 
