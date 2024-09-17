@@ -1,6 +1,6 @@
 ---
 key: schaffrath
-link: https://www.weinberger-la.de/
+link: https://www.schaffrath.de/digitalagentur
 year: 2023
 month: 5
 name: Schaffrath Digitalagentur
