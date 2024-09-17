@@ -63,7 +63,6 @@ const Index: NextPage = () => {
           </Link>
         </div>
       </Container>
-      {/*Button that leads to contact*/}
       <SocialLinks/>
     </>
   )
