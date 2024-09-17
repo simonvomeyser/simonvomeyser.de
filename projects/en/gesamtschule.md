@@ -1,8 +1,8 @@
 ---
 key: gesamtschule
 link: https://www.gesamtschule-heinsberg.de/
-year: 2024
-month: 1
+year: 2023
+month: 10
 name: Gesamtschule Heinsberg
 logo: listicon-gesamtschule.png
 technologies: ['statamic', 'tailwind', 'alpine js', 'laravel', 'livewire', 'alpine']
