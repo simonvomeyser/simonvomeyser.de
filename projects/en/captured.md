@@ -4,6 +4,7 @@ link: https://berndtouring.com/
 year: 2024
 month: 9
 name: Captured Live 
+running: true
 logo: listicon-captured.png
 technologies: ['laravel', 'nova']
 clients: []
