@@ -199,4 +199,5 @@ E-Mail: info@simonvomeyser.de</p>
   pageNotFoundText:
     'Die Seite hab ich nicht finden können, das macht mich genau so traurig wie du wahrscheinlich gerade bist ',
   pageNotFoundLink: 'Zurück',
+  untilNow: '- heute',
 }

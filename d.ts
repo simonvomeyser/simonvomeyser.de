@@ -6,6 +6,7 @@ export type ProjectType = {
   dateFull: string
   html: string
   logo: string;
+  running?: boolean
   link?: string;
   videoUrl?: string;
   technologies?: string[];

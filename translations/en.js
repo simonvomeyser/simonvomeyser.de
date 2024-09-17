@@ -217,4 +217,5 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   pageNotFoundText:
     'The page you were trying to find does not exists. That makes me as sad as it probably makes you 😭',
   pageNotFoundLink: 'Back',
+  untilNow: '- today',
 }

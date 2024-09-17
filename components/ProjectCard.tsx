@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import React from 'react'
 import { ProjectType } from '../d'
+import { useTranslation } from '../hooks/useTranslation'
 import ExternalLinkSvg from '../svg/external-link.svg'
 import FullscreenSvg from '../svg/fullscreen.svg'
 import PlayScreenSvg from '../svg/play-screen.svg'
@@ -19,6 +20,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
   let videoFullscreen: React.RefObject<HTMLVideoElement> = React.createRef()
 
   const [isVideoPlaying, setIsVideoPlaying] = React.useState(false)
+  const {__} = useTranslation();
 
   const toggleVideoPlay = () => {
     if (video.current) {
@@ -109,7 +111,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
           )}
         </div>
         <div className='px-4 pt-4 pb-8'>
-          <div className='text-sm text-neutral-400'>{project.year}</div>
+          <div className='text-sm text-neutral-400'>{project.year}{project.running ? ' ' + __('untilNow') : ''}</div>
           <div className='text-2xl mb-4'>{project.name}</div>
           <div className='small-basic-rich-text' dangerouslySetInnerHTML={{ __html: project.html }} />
         </div>
