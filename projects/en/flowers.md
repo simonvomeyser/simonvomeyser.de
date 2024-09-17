@@ -3,7 +3,7 @@ key: flowers
 link: https://members.flowersandbees.de
 year: 2024
 month: 6
-name: Flowers & Bees Mitgliederplattform
+name: Flowers & Bees Members Area
 logo: listicon-flowers.png
 technologies: ['tailwind', 'alpine js', 'laravel', 'livewire', 'mailgun', 'alpine']
 clients: []

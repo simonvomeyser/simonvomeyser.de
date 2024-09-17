@@ -3,7 +3,7 @@ key: weinberger
 link: https://www.weinberger-la.de/
 year: 2024
 month: 3
-name: Weinberger Landschaftsarchitekten
+name: Weinberger Architects
 logo: listicon-weinberger.png
 technologies: ['nextjs', 'wordpress']
 clients: []
