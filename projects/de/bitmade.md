@@ -10,6 +10,6 @@ technologies: ['next js', 'type script', 'jest', 'cypress', 'tailwind css', 'tes
 clients: []
 ---
 
-Regelmäßige projektbezogene Zusammenarbeit mit einer Digitalagentur aus Essen, einschließlich der Anleitung von Junior Developern (Planung, Code Reviews, Pairing).
+Regelmäßige projektbezogene Zusammenarbeit mit der Digitalagentur aus Essen, einschließlich der Anleitung von Junior-Entwicklern (Planung, Code Reviews, Pairing).
 
-Entwicklung einer vollständig End-to-End (E2E) getesteten Next.js-Anwendung zur Automatisierung von Werbemedien. Auftraggeber war einer der größten deutschen Handelskonzerne.
+Unter anderem die Entwicklung einer vollständig End-to-End (E2E) getesteten Next.js-Anwendung zur Automatisierung von Werbemedien. Auftraggeber war einer der größten deutschen Handelskonzerne.
