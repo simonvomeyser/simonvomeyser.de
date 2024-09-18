@@ -144,8 +144,8 @@ E-Mail: info@simonvomeyser.de</p>
   aboutMeCta: 'Einfach mal Hallo!',
 
   projectsCopy: `
-    <p>Hier kannst du einige der Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>, komme aber auch mit anderen Technologien in Kontakt.</p>
-    <p>Natürlich sind die Projekte um einiges komplexer, als ich es hier beschreiben kann. Besonders eine gute Anforderungsanalyse und Kommunikation halte ich für wichtiger, als die verwendete Technologie.</p>
+    <p>Hier kannst du einige der Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
+    <p>Natürlich sind die Projekte um einiges komplexer, als ich es hier beschreiben kann. Besonders gute Kommunikation halte ich für wichtiger, als die verwendete Technologie.</p>
   `,
   projectsShowOldProjects: 'Ältere Projekte zeigen',
   projectsNoResults: 'Keine Projekte gefunden',
