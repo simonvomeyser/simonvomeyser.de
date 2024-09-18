@@ -49,7 +49,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
           <video muted loop ref={video}
                  preload='none'
                  playsInline
-                 className={clsx('w-full h-full object-cover absolute inset-0 transition duration-1000', {
+                 className={clsx('w-full h-full object-cover object-top absolute inset-0 transition duration-1000', {
                    'opacity-0': !isVideoPlaying,
                  })}
           >
