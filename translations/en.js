@@ -122,7 +122,7 @@ module.exports = {
   aboutMeImageAlt: 'Simon looks friendly and sits on the floor with his MacBook. Apparently he can\'t afford an desk.',
   aboutMeOpener: 'Senior web developer focused on communication, Laravel, and JavaScript.',
   aboutMeFirstText: `
-I have been planning and developing web applications for over <strong>10 years</strong>, hold a <strong>Master's degree</strong> in Media Informatics, and have experience as a team and <strong>project lead</strong>.
+I have been planning and developing web applications for over <strong>10 years</strong>, hold a <strong>Master's degree</strong> in Media Informatics, and I am experienced as a team and <strong>project lead</strong>.
 <br><br>
 Since I always find these texts a bit impersonal, feel free to get to know me a little better:
    `,
@@ -158,10 +158,10 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   As a big fan of <strong>agile methodologies</strong>, I have been <strong>Scrum certified</strong> since 2022.
 </p>
 <p>
-  Now that you've read all this, it's your turn! I look forward to getting to know you or your team and working together on exciting projects! Feel free to send me a "Hallo, Guten Tag" (as we say in Germany)
+  Now that you've read all this, it's your turn! I look forward to getting to know you or your team and working together on exciting projects! Feel free to send me a "Hallo, guten Tag!" (as we say in Germany)
 </p>
   `,
-  aboutMeCta: 'Hallo guten Tag! 👋',
+  aboutMeCta: 'Hallo, guten Tag! 👋',
   projectsCopy: `
     <p>You will find a few of projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
     <p>Most projects are way more interesting than the space here allows for. 
