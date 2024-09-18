@@ -7,7 +7,7 @@ name: Amaro 2021 Relaunch
 excerpt:
 logo: listicon-amaro2021.png
 technologies: ['laravel', 'statamic', 'vue']
-videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/v1660753828/videos-simonvomeyser.de/amaro.mp4
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/f_auto:video,q_auto/v1/videos-simonvomeyser.de/amaro-statamic
 ---
 
 Großer Relaunch der 2018 noch mit Wordpress umgesetzten Webseite des Autohändlers.

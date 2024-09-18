@@ -6,6 +6,7 @@ month: 3
 name: Weinberger Landschaftsarchitekten
 logo: listicon-weinberger.png
 technologies: ['nextjs', 'wordpress']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/f_auto:video,q_auto/v1/videos-simonvomeyser.de/weinberger
 clients: []
 ---
 

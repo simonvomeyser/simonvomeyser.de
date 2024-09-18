@@ -6,6 +6,7 @@ month: 10
 name: Gesamtschule Heinsberg
 logo: listicon-gesamtschule.png
 technologies: ['statamic', 'tailwind', 'alpine js', 'laravel', 'livewire', 'alpine']
+videoUrl: https://res.cloudinary.com/simonvomeyser/video/upload/f_auto:video,q_auto/v1/videos-simonvomeyser.de/gesamtschule
 clients: []
 ---
 
