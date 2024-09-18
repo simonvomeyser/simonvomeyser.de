@@ -1,6 +1,5 @@
 ---
 key: voss
-link: https://lr.voss-t.de
 year: 2021
 month: 9
 name: Voss Telekom LR
