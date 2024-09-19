@@ -10,7 +10,7 @@ technologies: ['laravel', 'nova']
 clients: []
 ---
 
-Further development of an internal tool to streamline work for the tour service [Captured Live](https://berndtouring.com/) in Essen.
+Further development of an internal tool to streamline work for the tour service [Captured Live](https://berndtouring.com/).
 
 The Laravel-based application simplifies event planning, staff scheduling, and customer acquisition.
 

@@ -10,7 +10,7 @@ technologies: ['laravel', 'nova']
 clients: []
 ---
 
-Übernahme und Weiterentwicklung eines internen Tools zur Arbeitserleichterung für den Tourneeservice [Captured Live](https://berndtouring.com/) in Essen.
+Übernahme und Weiterentwicklung eines internen Tools zur Arbeitserleichterung für den Tourneeservice [Captured Live](https://berndtouring.com/).
 
 Die Laravel-basierte Anwendung vereinfacht die Planung und Durchführung von Veranstaltungen sowie die Mitarbeiterplanung und Kundengewinnung.
 

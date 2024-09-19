@@ -10,6 +10,6 @@ technologies: ['next js', 'type script', 'jest', 'cypress', 'tailwind css', 'tes
 clients: []
 ---
 
-Regular project-related collaboration with a digital agency from Essen, including the guidance of junior developers (planning, code reviews, pairing).
+Regular project-related collaboration with a digital agency, including the guidance of junior developers (planning, code reviews, pairing).
 
 Development of a fully end-to-end (E2E) tested Next.js application for the automation of advertising media. The client was one of the largest German retail groups.
