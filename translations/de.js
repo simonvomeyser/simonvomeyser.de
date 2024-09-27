@@ -165,7 +165,7 @@ E-Mail: info@simonvomeyser.de</p>
     Auf welchem Weg auch immer: Ich biete gerne Projektunterschtützung bei <strong>Konzeption</strong>, <strong>Kommunikation</strong>  und <strong>Entwicklung</strong>. Ich habe zudem immer Interesse an spannenden Projekten und an coolen Teams, in denen man viel voneinander lernen kann. Meld dich einfach! 🙂
   </p>
   `,
-  contactFormPrivacy: 'Ich bin cool mit und akzeptiere hiermit die <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Hinweise zum Datenschutz.</a>. Ich vetraue Simon sozusagen, dass er meine Daten weder speichert noch weitergibt.',
+  contactFormPrivacy: 'Ich habe die <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Hinweise zum Datenschutz.</a> gelesen und akzeptiere diese.',
 
   errorsRequired: 'Hey, das ist ein Pflichtfeld...',
   errorsInvalidEmail: 'Hm, da kann ich keine E-Mail hinschicken 🤔',

@@ -184,7 +184,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
         I can help you <strong>planning</strong>, <strong>communication</strong> and <strong>development</strong>. I am also always interested to work with cool teams, so we can learn from each other. Just hit me up 🙂
     </p>
   `,
-  contactFormPrivacy: 'I am down with and thereby accept the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>, I trust you to not save my data.',
+  contactFormPrivacy: 'I\'ve read and accepted the <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">privacy policy</a>',
   errorsRequired: 'Oh no, you forgot to fill this in!',
   errorsInvalidEmail: 'Hm, that doesn\'t look like a valid email address 🤔',
   errorsMessageTooShort: 'A little bit too short, that\'s not a good conversation starter',
