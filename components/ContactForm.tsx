@@ -118,7 +118,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className, setSubmitSt
                       <CheckmarkSvg className='w-5 h-5' />
                     </span>
                   </span>
-                  <span className='inline-block text-sm small-basic-rich-text !text-neutral-400'>
+                  <span className='inline-block text-sm small-basic-rich-text !text-neutral-400 mt-0.5'>
                     {___('contactFormPrivacy')}
                   </span>
 
