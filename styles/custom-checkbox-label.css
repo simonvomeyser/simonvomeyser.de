@@ -11,3 +11,7 @@
   opacity: 1;
   transform: scale(1);
 }
+
+.custom-checkbox-label input[type="checkbox"]:focus + span {
+  border-color: var(--primary) !important;
+}
