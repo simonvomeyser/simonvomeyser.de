@@ -21,7 +21,7 @@ module.exports = {
       </p>
       <p>
           Telefon: +49157 33915334<br>
-          E-Mail: <a href='mailto:simon.vom.eyser@gmail.com'>simon.vom.eyser@gmail.com</a></p>
+          E-Mail: <a href='mailto:hallo@simonvomeyser.de'>hallo@simonvomeyser.de</a></p>
       <h2>Umsatzsteuer-ID:</h2>
       <p>
       Umsatzsteuer-Identifikationsnummer <br>(gemäß §27a Umsatzsteuergesetz): <br>DE318030105
@@ -68,7 +68,7 @@ Ostwall 234<br />
 47798 Krefeld</p>
 
 <p>Telefon: +4915733915334<br />
-E-Mail: info@simonvomeyser.de</p>
+E-Mail: hallo@simonvomeyser.de</p>
  <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</p>
 
 <h3>Speicherdauer</h3> <p>Soweit innerhalb dieser Datenschutzerkl&auml;rung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck f&uuml;r die Datenverarbeitung entf&auml;llt. Wenn Sie ein berechtigtes L&ouml;schersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gel&ouml;scht, sofern wir keine anderen rechtlich zul&auml;ssigen Gr&uuml;nde f&uuml;r die Speicherung Ihrer personenbezogenen Daten haben (z.&nbsp;B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die L&ouml;schung nach Fortfall dieser Gr&uuml;nde.</p>
@@ -158,7 +158,7 @@ E-Mail: info@simonvomeyser.de</p>
   contactFormCopy: `
   <p>
     Das obligatorische Kontaktformular auf einer Webseite darf natürlich nicht fehlen. Aber seien wir ehrlich: Es macht auch
-    nichts anderes, als mir eine E-Mail an <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a> zu
+    nichts anderes, als mir eine E-Mail an <a href='mailto:hallo@simonvomeyser.de'>hallo@simonvomeyser.de</a> zu
     schicken.
   </p>
   <p>
@@ -173,7 +173,7 @@ E-Mail: info@simonvomeyser.de</p>
   emailPlaceholder: 'Deine E-Mail',
   textPlaceholder: 'Frag mich etwas...',
   contactMessageErrorHeading: 'Ups, da ist was schief gelaufen!',
-  contactMessageErrorText: 'Ganz schön peinlich. Du kannst mich aber immer unter <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a> erreichen.',
+  contactMessageErrorText: 'Ganz schön peinlich. Du kannst mich aber immer unter <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a> erreichen.',
   emailRequired:
     'E-Mail muss eine echte E-Mail Adresse sein. Ich wette du bist überrascht!',
   textRequired: 'Der Text muss etwas länger sein, das schaffst du!',
@@ -182,7 +182,7 @@ E-Mail: info@simonvomeyser.de</p>
   send: 'Auf geht\'s!',
   contactMessageSuccessHeading: 'Yeah, das hat funktioniert!',
   contactMessageSuccessText:
-    'Ich melde mich sobald es geht bei dir. Du kannst mich aber auch unter <a class="underline" href="mailto:simon.vom.eyser@gmail.com">simon.vom.eyser@gmail.com</a> kontaktieren.',
+    'Ich melde mich sobald es geht bei dir. Du kannst mich aber auch unter <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a> kontaktieren.',
   blogCopy: `
    <p>
    Ich schreibe mehr oder weniger regelmäßig einen Blog unter <a href='https://simple-web.dev' target='_blank'>https://simple-web.dev</a>. Die Themen bewegen sich in einem breiten Spektrum von Projektmanagement und persönlicher Produktivität bis zu Webentwicklung mit meinen bevorzugten Technologien Laravel, React und Vue.js.

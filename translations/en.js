@@ -20,7 +20,7 @@ module.exports = {
       </p>
       <p>
           Phone: +49157 33915334<br>
-          Email: <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a></p>
+          Email: <a href='mailto:hallo@simonvomeyser.de'>hallo@simonvomeyser.de</a></p>
       <h2>Liability for links</h2>
       <p>
         This website contains links to external third-party websites, over the content of which I have no control. 
@@ -82,7 +82,7 @@ module.exports = {
     <p>
       Simon vom Eyser <br/>
       Phone: +49 1774100666 <br>
-      Email: <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>
+      Email: <a href='mailto:hallo@simonvomeyser.de'>hallo@simonvomeyser.de</a>
     </p>
     <p>The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and
         means of processing personal data (names, email addresses, etc.).</p>
@@ -178,7 +178,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   ],
   contactFormCopy: `
     <p>
-      Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href='mailto:info@simonvomeyser.de'>info@simonvomeyser.de</a>.
+      Since a contact form seems to be mandatory for every website, here we go... To be honest this thing will do nothing more than to send an email to <a href='mailto:hallo@simonvomeyser.de'>hallo@simonvomeyser.de</a>.
     </p>
     <p>
         I can help you <strong>planning</strong>, <strong>communication</strong> and <strong>development</strong>. I am also always interested to work with cool teams, so we can learn from each other. Just hit me up 🙂
@@ -191,7 +191,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   emailPlaceholder: 'your email',
   textPlaceholder: 'ask me something',
   contactMessageErrorHeading: 'Oh snap, something went wrong!',
-  contactMessageErrorText: 'That\'s really embarrassing, but you can always contact me via <a class="underline" href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.',
+  contactMessageErrorText: 'That\'s really embarrassing, but you can always contact me via <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a>.',
   emailRequired: 'Email needs to be a valid email. That\'s a shocker, right?',
   textRequired:
     'The text needs to be text. You can do more than a few characters, I believe in you!',
@@ -212,7 +212,7 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   `,
   contactMessageSuccessHeading: 'Awesome, it worked!',
   contactMessageSuccessText:
-    'I will get back to you soon, I promise. You can always contact me via <a class="underline" href="mailto:info@simonvomeyser.de">info@simonvomeyser.de</a>.',
+    'I will get back to you soon, I promise. You can always contact me via <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a>.',
   pageNotFoundSubHeading: 'Computer says "NO" ... page was not found',
   pageNotFoundText:
     'The page you were trying to find does not exists. That makes me as sad as it probably makes you 😭',
