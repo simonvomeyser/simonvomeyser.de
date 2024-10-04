@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import React from 'react'
+import screenfull from 'screenfull'
 import { ProjectType } from '../d'
 import { useTranslation } from '../hooks/useTranslation'
 import ExternalLinkSvg from '../svg/external-link.svg'
@@ -15,11 +16,11 @@ export type ProjectCardProps = {
   style?: React.CSSProperties;
 };
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , style}) => {
+export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project, style }) => {
   let video: React.RefObject<HTMLVideoElement> = React.createRef()
 
   const [isVideoPlaying, setIsVideoPlaying] = React.useState(false)
-  const {__} = useTranslation();
+  const { __ } = useTranslation()
 
   const toggleVideoPlay = () => {
     if (video.current) {
@@ -34,12 +35,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
 
   const toggleFullscreen = () => {
     if (video.current) {
-      if (document.fullscreenElement) {
-        document.exitFullscreen()
+      if(screenfull.isEnabled) {
+        screenfull.request(video.current)
       } else {
-        video.current.requestFullscreen()
+        openVideoInNewTab()
       }
     }
+  }
+
+  const openVideoInNewTab = () => {
+    setTimeout(() => {
+      window.open(project.videoUrl, '_blank')
+    })
   }
 
 
@@ -53,7 +60,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
             width={603}
             height={304}
             objectFit='cover'
-            layout="responsive"
+            layout='responsive'
           />
           <video muted loop ref={video}
                  preload='none'
@@ -74,15 +81,15 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
             <>
               <button
                 className={clsx('rounded-full bg-primary inline-flex justify-center items-center text-white w-10 h-10 hover:bg-primary hover:scale-105 transition duration-300 relative ', {
-                  'opacity-0 scale-50 translate-x-10 pointer-events-none': !isVideoPlaying
+                  'opacity-0 scale-50 translate-x-10 pointer-events-none': !isVideoPlaying,
                 })}
                 tabIndex={isVideoPlaying ? 0 : -1}
-                title="Fullscreen"
+                title='Fullscreen'
                 onClick={toggleFullscreen}
-                >
-                  <FullscreenSvg
-                    className="w-4 h-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                  />
+              >
+                <FullscreenSvg
+                  className='w-4 h-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                />
 
               </button>
               <button
@@ -92,12 +99,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
               >
 
                 <PlayScreenSvg
-                  className={clsx("w-5 h-5 transition duration-700 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2", {
-                    'opacity-0 scale-0': isVideoPlaying
+                  className={clsx('w-5 h-5 transition duration-700 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2', {
+                    'opacity-0 scale-0': isVideoPlaying,
                   })}
-                   />
+                />
                 <StopSquareSvg
-                  className={clsx("w-3 h-auto transition duration-700 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ", {
+                  className={clsx('w-3 h-auto transition duration-700 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ', {
                     'opacity-0 scale-0': !isVideoPlaying,
                   })}
                 />
@@ -106,7 +113,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ className, project , s
           )}
           {project.link && (
             <a href={project.link}
-               target="_blank" rel="noopener noreferrer"
+               target='_blank' rel='noopener noreferrer'
                className='rounded-full bg-neutral-700 inline-flex justify-center items-center text-white w-10 h-10 hover:bg-primary hover:scale-105 transition duration-300 relative'>
               <ExternalLinkSvg
                 className='w-4 h-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' />
