@@ -128,24 +128,26 @@ E-Mail: hallo@simonvomeyser.de</p>
       Ich plane und entwickle umfangreiche Webprojekte, häufig mit anderen Freiberuflern oder Agenturen in Teamarbeit.
     </p>
     <p>
-      Bisherige Highlights waren die Umsetzung des Projekts <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> für das Bundesland Rheinland-Pfalz und der Webseiten-Relaunch des renomierten Konzerthauses <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>. 
+      Zu meinen Highlights zählen unter anderem ein Projekt für das rheinland-pfälzische Klimaschutzministerium sowie die mit einem <strong>Award ausgezeichnete neue Website</strong> der renommierten Konzerthalle <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
     </p>
     <p>
-      Ich war auch an anderen spannenden Projekten beteiligt, die ich leider nicht genauer nennen darf. Ein Beispiel ist die Automatisierung von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong> sowie der Relaunch einer Redaktionsplattform eines großen Verlags mit <strong>Laravel/Statamic</strong>.
+      Ich war auch an vielen spannenden Projekten beteiligt, die ich leider nicht genauer nennen darf. Ein Beispiel ist die Automatisierung von Werbemedien für einen großen deutschen Handelskonzern mit <strong>Next.js</strong> sowie der Relaunch einer Redaktionsplattform eines großen Verlags mit <strong>Laravel/Statamic</strong>.
     </p>
     <p>
-      Für mich sind Kommunikation und Anforderungsanalyse wichtiger als jede Technologie, technisch arbeite ich aber am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>. <br>
-      Als großer Fan von <strong>agilen Methoden</strong> bin ich seit 2022 <strong>Scrum zertifiziert</strong>. 
+      Auch als Freiberufler habe ich in leitender Funktion gearbeitet, Juniorentwickler betreut und war am Einstellungsprozess neuer Teammitglieder beteiligt.
+    <p>
+      Für mich sind <strong>Kommunikation und Empathie</strong> wichtiger als jede Technologie.
+      Als großer Fan von agilen Methoden bin ich daher seit 2022 <strong>Scrum zertifiziert</strong>. 
     </p> 
     <p>
-    Nach so viel Text bist aber jetzt du dran! Ich freue mich darauf, dich oder dein Team kennenzulernen und gemeinsam an spannenden Projekten zu arbeiten! Sag doch einfach mal Hallo! 👋 
+    Nach so viel Text bist aber jetzt du dran! Ich freue mich darauf, dich oder dein Team kennenzulernenl <br>Sag doch einfach mal Hallo! 👋 
     </p> 
      `,
   aboutMeCta: 'Einfach mal Hallo!',
 
   projectsCopy: `
-    <p>Hier kannst du einige der Projekte ansehen, an denen ich beteiligt war. Ich arbeite am liebsten mit <strong>Laravel</strong>, <strong>React</strong> und <strong>Vue.js</strong>.</p>
-    <p>Natürlich sind die Projekte um einiges komplexer, als ich es hier beschreiben kann. Besonders gute Kommunikation halte ich für wichtiger, als die verwendete Technologie.</p>
+    <p>Hier findest du freiberuflichen Projekte, die ich veröffentlichen durfte.</p>
+    <p>Die Projekte sind hier nur kurz und mit Fokus auf Framework und Sprache beschrieben. Besonders gute Kommunikation halte ich jedoch für wichtiger, als die verwendete Technologie.</p>
   `,
   projectsShowOldProjects: 'Ältere Projekte zeigen',
   projectsNoResults: 'Keine Projekte gefunden',

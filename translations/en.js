@@ -148,24 +148,26 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   I plan and develop large web projects, often collaborating with other freelancers or agencies in team settings.
 </p>
 <p>
-  Some of my highlights include the implementation of the project <a href='https://muellnichtrum.rlp.de/' target='_blank'>Müll nicht rum</a> for the state of Rhineland-Palatinate, and the website relaunch of the esteemed concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
+  Some of my highlights include a project for the Rhineland-Palatinate Ministry for Climate Protection, and the <strong>award-winning website relaunch</strong> of the esteemed concert hall <a href='https://www.tonhalle.de/' target='_blank'>Tonhalle Düsseldorf</a>.
 </p>
 <p>
-  I have also been involved in other exciting projects, which I am unfortunately unable to disclose in detail. One example is the automation of advertising media for a large German retail company with <strong>Next.js</strong>, as well as the relaunch of a publishing platform for a major publisher with <strong>Laravel/Statamic</strong>.
+  I have also participated in other exciting projects, but I cannot disclose the details.. One example is the automation of advertising media for a large German retail company with <strong>Next.js</strong>, as well as the relaunch of a publishing platform for a major publisher with <strong>Laravel/Statamic</strong>.
 </p>
 <p>
-  For me, communication and requirements analysis are more important than any technology, but technically, I prefer working with <strong>Laravel</strong>, <strong>React</strong>, and <strong>Vue.js</strong>. <br>
-  As a big fan of <strong>agile methodologies</strong>, I have been <strong>Scrum certified</strong> since 2022.
+  I've worked in a team-leading roles, mentoring junior developers, and have been involved in the hiring process for new team members.
 </p>
 <p>
-  Now that you've read all this, it's your turn! I look forward to getting to know you or your team and working together on exciting projects! Feel free to send me a "Hallo, guten Tag!" (as we say in Germany)
+  For me, <strong>communication and empathy</strong> are more important than any technology.
+  As a big fan of agile methods, I have been <strong>Scrum certified</strong> since 2022. 
+</p>
+<p>
+  Now that you've read all this, it's your turn! I look forward to getting to know you or your team! <br> <br> Feel free to send me a "Hallo, guten Tag!" (as we say in Germany)
 </p>
   `,
   aboutMeCta: 'Hallo, guten Tag! 👋',
   projectsCopy: `
-    <p>You will find a few of projects I was involved in here. I prefer working with <strong>Laravel</strong>, <strong>React</strong> and <strong>Vue.js</strong>. </p>
-    <p>Most projects are way more interesting than the space here allows for. 
-    Requirements engineering and communication is crucial for a successful product - even before the first line of code is ever written.</p>
+  <p>Here you can find freelance projects that I was allowed to publish.</p>
+  <p>The projects are only described briefly here and with a focus on the framework and language. But I think particularly good communication is more important than the technology used.</p>
   `,
   projectsShowOldProjects: 'Show old(er) projects',
   projectsNoResults: 'No projects found for this search...',
