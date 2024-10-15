@@ -45,7 +45,7 @@ const Index: NextPage<{ projects: ProjectType[], query: string }> = ({ projects 
       <PageHeading>
         <h1>{__('navigationProjects')}</h1>
       </PageHeading>
-      <div className='rich-text max-w-screen-sm mx-auto mb-8'>
+      <div className='rich-text max-w-screen-sm mx-auto mb-8' style={{hyphens: 'auto'}}>
         {___('projectsCopy')}
       </div>
 

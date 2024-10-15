@@ -12,7 +12,7 @@ export const PageHeading: React.FC<PageHeadingProps> = ({
                                                         }) => {
 
   return (
-    <div className={clsx('text-3xl sm:text-4xl text-center text-teal-400 mb-8 sm:mb-12 font-medium font-special', className)} style={{
+    <div className={clsx('text-3xl sm:text-4xl text-center text-teal-400 mb-8 font-medium font-special', className)} style={{
       'hyphens': 'auto',
     }}>
       {children}
