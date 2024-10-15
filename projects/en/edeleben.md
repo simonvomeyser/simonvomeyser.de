@@ -16,4 +16,3 @@ Website for the artisan company “Edel-Eben.” The focus was on creating an el
 Implemented using the TALL Stack (Tailwind, Alpine.js, Laravel, Livewire), each page can be built from flexible components, with animations, color transitions, and other visual accents fully customizable.
 
 The branding was developed by the great designer [Felix Rostig](https://felixrostig.design/). 
-```
