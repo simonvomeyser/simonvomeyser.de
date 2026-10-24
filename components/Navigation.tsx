@@ -9,7 +9,6 @@ import LogoNavigation from '../svg/logo-navigation.svg'
 import PaperPlaneSvg from '../svg/paper-plane.svg'
 import ProjectsSvg from '../svg/projects.svg'
 import UserSvg from '../svg/user.svg'
-import WriteSvg from '../svg/write.svg'
 import { NavigationElement } from './NavigationElement'
 
 
@@ -52,9 +51,6 @@ export const Navigation: React.FC = () => {
           </NavigationElement>
           <NavigationElement href='/contact' text={__('navigationContact')}>
             <PaperPlaneSvg className='w-8 h-auto' />
-          </NavigationElement>
-          <NavigationElement href='/blog' text={__('navigationBlog')}>
-            <WriteSvg className='w-8 h-auto' />
           </NavigationElement>
 
         </div>

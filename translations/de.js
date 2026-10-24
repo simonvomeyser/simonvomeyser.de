@@ -7,7 +7,6 @@ module.exports = {
   metaKeywords:
     'Webentwickler, freiberuflich, NRW, Deutschland, Krefeld, Laravel, React, Vue, Projektmanagement, Consulting, Schulung',
   metaDescriptionProject: 'Hier kannst du einige der mittlerweile über 50 Projekte ansehen, an denen ich beteiligt war.',
-  metaDescriptionBlog: 'Ich schreibe mehr oder weniger regelmäßig einen Blog über Webentwicklung, Projektmanagement, Teamwork und Tools. Schau doch mal vorbei!',
   metaDescriptionContact: 'Das obligatorische Kontaktformular auf einer Webseite darf natürlich nicht fehlen',
   legalNoticeTitle: 'Impressum',
   privacyPolicyTitle: 'Datenschutzerklärung',
@@ -96,7 +95,6 @@ E-Mail: hallo@simonvomeyser.de</p>
   navigationAboutMe: 'Über mich',
   navigationProjects: 'Projekte',
   navigationContact: 'Kontakt',
-  navigationBlog: 'Blog',
   myProfession: 'Webentwicklung',
   niceToMeetYou: 'Hey, ich bin Simon!',
   aboutMeImageAlt: 'Simon lacht freundlich und sitzt mit seinem MacBook auf dem Boden. Anscheinend kann er sich keinen Schreibtisch leisten.',
@@ -185,16 +183,6 @@ E-Mail: hallo@simonvomeyser.de</p>
   contactMessageSuccessHeading: 'Yeah, das hat funktioniert!',
   contactMessageSuccessText:
     'Ich melde mich sobald es geht bei dir. Du kannst mich aber auch unter <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a> kontaktieren.',
-  blogCopy: `
-   <p>
-   Ich schreibe mehr oder weniger regelmäßig einen Blog unter <a href='https://simple-web.dev' target='_blank'>https://simple-web.dev</a>. Die Themen bewegen sich in einem breiten Spektrum von Projektmanagement und persönlicher Produktivität bis zu Webentwicklung mit meinen bevorzugten Technologien Laravel, React und Vue.js.
-  </p>
-  <p>
-  Der Blog ist auf English und wahrscheinlich eher für andere Entwickler interessant. Aber auch falls du einfach Interesse hast zu sehen, was mich so beschäftigt schau doch mal vorbei! Achja, du solltest dich vielleicht nicht an wenig erwachsenen Witzen stören.
-</p>
-  `,
-  blogCta: 'Schau mal vorbei!',
-  blogCopy2: `Hier siehst du eine kleine Auswahl meiner letzten Artikel, ein Klick führt dich auf den Blogpost.`,
 
   pageNotFoundSubHeading:
     'Computer sagt "Nein!" ... die Seite wurde nicht gefunden',

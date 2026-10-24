@@ -7,7 +7,6 @@ module.exports = {
   metaKeywords:
     'web, development, freelancer, NRW, Germany, Krefeld, Laravel, React, Vue, projectmanagement, consulting, training',
   metaDescriptionProject: 'Here you can see some of the more than 50 projects I\'ve been involved in.',
-  metaDescriptionBlog: 'I blog more or less regularly about web development, project management, teamwork and tools. Take a look!',
   metaDescriptionContact: 'Since a contact form seems to be mandatory for every website, here we go!',
   legalNoticeTitle: 'Legal Notice',
   privacyPolicyTitleShort: 'Privacy',
@@ -116,7 +115,6 @@ module.exports = {
   navigationAboutMe: 'About me',
   navigationProjects: 'Projects',
   navigationContact: 'Contact',
-  navigationBlog: 'Blog',
   myProfession: 'web development',
   niceToMeetYou: 'Hey, I\'m Simon!',
   aboutMeImageAlt: 'Simon looks friendly and sits on the floor with his MacBook. Apparently he can\'t afford an desk.',
@@ -200,18 +198,6 @@ Since I always find these texts a bit impersonal, feel free to get to know me a 
   emailAndTextRequired:
     'Without an email and enough text there is nothing this form can do for you...',
   send: 'send it!',
-  blogCopy: `
-    <p>
-    I do write a blog on a (more or less) regular basis. The topics range around project management, team improvement, productivity and of course web development with Laravel, React and Vue.js.
-    </p>
-    <p>
-     The blog's target audience is mainly web developers, but everybody is welcomed to read it, as long as you can handle my nerdy and sometimes childish humor.
-    </p>
-  `,
-  blogCta: 'Let\'s have a look!',
-  blogCopy2: `
-  Here you can see the most recent articles, a click directly leads you to the post.
-  `,
   contactMessageSuccessHeading: 'Awesome, it worked!',
   contactMessageSuccessText:
     'I will get back to you soon, I promise. You can always contact me via <a class="underline" href="mailto:hallo@simonvomeyser.de">hallo@simonvomeyser.de</a>.',
